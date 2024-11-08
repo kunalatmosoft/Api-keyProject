@@ -1,0 +1,572 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Apple iPhone 14 Pro Max",
+      "category": "Electronics",
+      "price": 1099.99,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviews": 1200,
+      "description": "The latest iPhone with a 6.7-inch display and A16 Bionic chip.",
+      "image": "https://example.com/images/iphone14.jpg",
+      "brand": "Apple",
+      "stock": 100,
+      "specifications": {
+        "display": "6.7 inches",
+        "processor": "A16 Bionic",
+        "camera": "48 MP",
+        "battery": "4323 mAh"
+      },
+      "is_prime": true
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S22",
+      "category": "Electronics",
+      "price": 799.99,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviews": 800,
+      "description": "The Samsung Galaxy S22 with an AMOLED display and Snapdragon 8 Gen 1.",
+      "image": "https://example.com/images/galaxys22.jpg",
+      "brand": "Samsung",
+      "stock": 150,
+      "specifications": {
+        "display": "6.1 inches",
+        "processor": "Snapdragon 8 Gen 1",
+        "camera": "50 MP",
+        "battery": "3700 mAh"
+      },
+      "is_prime": false
+    },
+    {
+      "id": 3,
+      "name": "Sony WH-1000XM5 Headphones",
+      "category": "Electronics",
+      "price": 348.00,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviews": 500,
+      "description": "Wireless noise-canceling headphones with premium sound quality.",
+      "image": "https://example.com/images/sonyheadphones.jpg",
+      "brand": "Sony",
+      "stock": 200,
+      "specifications": {
+        "battery_life": "30 hours",
+        "connectivity": "Bluetooth 5.0",
+        "weight": "250 grams"
+      },
+      "is_prime": true
+    },
+    {
+      "id": 4,
+      "name": "Nike Air Zoom Pegasus 39 Running Shoes",
+      "category": "Fashion",
+      "price": 120.00,
+      "currency": "USD",
+      "rating": 4.3,
+      "reviews": 320,
+      "description": "Comfortable and durable running shoes designed for long-distance runners.",
+      "image": "https://example.com/images/nikeairzoom.jpg",
+      "brand": "Nike",
+      "stock": 300,
+      "specifications": {
+        "material": "Mesh and rubber",
+        "weight": "290 grams",
+        "size_range": "7-14 US"
+      },
+      "is_prime": false
+    },
+    {
+      "id": 5,
+      "name": "Apple MacBook Pro 13-inch",
+      "category": "Electronics",
+      "price": 1299.00,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviews": 950,
+      "description": "Powerful 13-inch MacBook with Apple M2 chip and Retina display.",
+      "image": "https://example.com/images/macbookpro13.jpg",
+      "brand": "Apple",
+      "stock": 75,
+      "specifications": {
+        "processor": "Apple M2",
+        "ram": "8 GB",
+        "storage": "256 GB SSD",
+        "display": "13.3 inches"
+      },
+      "is_prime": true
+    },
+    {
+      "id": 6,
+      "name": "Dell XPS 13 Laptop",
+      "category": "Electronics",
+      "price": 1099.00,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviews": 400,
+      "description": "High-performance laptop with Intel i7 processor and 16 GB RAM.",
+      "image": "https://example.com/images/dellxps13.jpg",
+      "brand": "Dell",
+      "stock": 50,
+      "specifications": {
+        "processor": "Intel i7",
+        "ram": "16 GB",
+        "storage": "512 GB SSD",
+        "display": "13.3 inches"
+      },
+      "is_prime": true
+    },
+    {
+      "id": 7,
+      "name": "Samsung 55-inch QLED TV",
+      "category": "Electronics",
+      "price": 799.99,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviews": 320,
+      "description": "Stunning 4K QLED display with voice control and smart TV features.",
+      "image": "https://example.com/images/samsungtv.jpg",
+      "brand": "Samsung",
+      "stock": 60,
+      "specifications": {
+        "screen_size": "55 inches",
+        "resolution": "4K",
+        "hdmi_ports": "4",
+        "smart_tv": true
+      },
+      "is_prime": false
+    },
+    {
+      "id": 8,
+      "name": "Sony PlayStation 5",
+      "category": "Electronics",
+      "price": 499.99,
+      "currency": "USD",
+      "rating": 4.9,
+      "reviews": 2500,
+      "description": "Next-gen gaming console with lightning-fast load times and immersive gameplay.",
+      "image": "https://example.com/images/ps5.jpg",
+      "brand": "Sony",
+      "stock": 100,
+      "specifications": {
+        "processor": "AMD Ryzen Zen 2",
+        "ram": "16 GB",
+        "storage": "825 GB SSD"
+      },
+      "is_prime": true
+    },
+    {
+      "id": 9,
+      "name": "Levi's 501 Original Fit Jeans",
+      "category": "Fashion",
+      "price": 49.99,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviews": 1000,
+      "description": "Classic straight-leg jeans with a button fly and durable denim fabric.",
+      "image": "https://example.com/images/levis501.jpg",
+      "brand": "Levi's",
+      "stock": 150,
+      "specifications": {
+        "material": "Cotton",
+        "fit": "Straight",
+        "size_range": "30-40"
+      },
+      "is_prime": false
+    },
+    {
+      "id": 10,
+      "name": "Adidas Ultraboost 22 Running Shoes",
+      "category": "Fashion",
+      "price": 180.00,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviews": 500,
+      "description": "Comfortable running shoes with Boost cushioning and Primeknit upper.",
+      "image": "https://example.com/images/adidasultraboost.jpg",
+      "brand": "Adidas",
+      "stock": 200,
+      "specifications": {
+        "material": "Primeknit",
+        "sole": "Rubber",
+        "weight": "310 grams"
+      },
+      "is_prime": true
+    },
+    {
+      "id": 11,
+      "name": "Samsung Galaxy Watch 5",
+      "category": "Electronics",
+      "price": 279.99,
+      "currency": "USD",
+      "rating": 4.4,
+      "reviews": 450,
+      "description": "Advanced smartwatch with health tracking, GPS, and heart rate monitor.",
+      "image": "https://example.com/images/galaxywatch5.jpg",
+      "brand": "Samsung",
+      "stock": 120,
+      "specifications": {
+        "display": "1.4 inches",
+        "battery_life": "48 hours",
+        "features": ["Health tracking", "GPS", "Heart rate monitor"]
+      },
+      "is_prime": false
+    },
+    {
+      "id": 12,
+      "name": "LG 65-inch 4K UHD TV",
+      "category": "Electronics",
+      "price": 599.99,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviews": 600,
+      "description": "Stunning 4K UHD TV with immersive audio and webOS smart features.",
+      "image": "https://example.com/images/lg4ktv.jpg",
+      "brand": "LG",
+      "stock": 80,
+      "specifications": {
+        "screen_size": "65 inches",
+        "resolution": "4K UHD",
+        "hdmi_ports": "3",
+        "smart_tv": true
+      },
+      "is_prime": true
+    },
+    {
+      "id": 13,
+      "name": "Bose QuietComfort 45 Headphones",
+      "category": "Electronics",
+      "price": 329.00,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviews": 650,
+      "description": "Premium noise-canceling headphones with exceptional sound quality.",
+      "image": "https://example.com/images/boseqc45.jpg",
+      "brand": "Bose",
+      "stock": 100,
+      "specifications": {
+        "battery_life": "24 hours",
+        "connectivity": "Bluetooth 5.1",
+        "noise_cancellation": true
+      },
+      "is_prime": false
+    },
+    {
+      "id": 14,
+      "name": "Apple AirPods Pro 2nd Gen",
+      "category": "Electronics",
+      "price": 249.99,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviews": 1400,
+      "description": "Active noise cancellation with transparency mode and improved sound quality.",
+      "image": "https://example.com/images/airpodspro.jpg",
+      "brand": "Apple",
+      "stock": 200,
+      "specifications": {
+        "battery_life": "6 hours",
+        "connectivity": "Bluetooth 5.0",
+        "noise_cancellation": true
+      },
+      "is_prime": true
+    },
+    {
+      "id": 15,
+      "name": "Fitbit Charge 5 Fitness Tracker",
+      "category": "Electronics",
+      "price": 129.99,
+      "currency": "USD",
+      "rating": 4.3,
+      "reviews": 800,
+      "description": "Advanced fitness tracker with built-in GPS, heart rate monitoring, and sleep tracking.",
+      "image": "https://example.com/images/fitbitcharge5.jpg",
+      "brand": "Fitbit",
+      "stock": 250,
+      "specifications": {
+        "battery_life": "7 days",
+        "features": ["GPS", "Heart rate monitoring", "Sleep tracking"]
+      },
+      "is_prime": false
+    },
+    {
+      "id": 16,
+      "name": "HP Spectre x360 Laptop",
+      "category": "Electronics",
+      "price": 1499.99,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviews": 450,
+      "description": "Convertible laptop with Intel i7 processor, 16 GB RAM, and 512 GB SSD.",
+      "image": "https://example.com/images/hpspectrex360.jpg",
+      "brand": "HP",
+      "stock": 100,
+      "specifications": {
+        "processor": "Intel i7",
+        "ram": "16 GB",
+        "storage": "512 GB SSD",
+        "display": "13.3 inches"
+      },
+      "is_prime": true
+    },
+    {
+      "id": 17,
+      "name": "Canon EOS Rebel T7 DSLR Camera",
+      "category": "Electronics",
+      "price": 499.99,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviews": 900,
+      "description": "DSLR camera with 24.1 MP resolution and 1080p Full HD video recording.",
+      "image": "https://example.com/images/canoneosrebel.jpg",
+      "brand": "Canon",
+      "stock": 120,
+      "specifications": {
+        "megapixels": "24.1 MP",
+        "video_resolution": "1080p Full HD",
+        "screen_size": "3 inches"
+      },
+      "is_prime": false
+    },
+    {
+      "id": 18,
+      "name": "Sennheiser Momentum True Wireless 3",
+      "category": "Electronics",
+      "price": 249.95,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviews": 750,
+      "description": "Premium wireless earbuds with active noise cancellation and deep bass.",
+      "image": "https://example.com/images/sennheisermomentum.jpg",
+      "brand": "Sennheiser",
+      "stock": 200,
+      "specifications": {
+        "battery_life": "7 hours",
+        "connectivity": "Bluetooth 5.2",
+        "noise_cancellation": true
+      },
+      "is_prime": false
+    },
+    {
+      "id": 19,
+      "name": "Nike Air Max 270 React",
+      "category": "Fashion",
+      "price": 150.00,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviews": 600,
+      "description": "Stylish sneakers with responsive cushioning and durable outsole.",
+      "image": "https://example.com/images/nikeairmax270.jpg",
+      "brand": "Nike",
+      "stock": 180,
+      "specifications": {
+        "material": "Synthetic",
+        "sole": "Rubber",
+        "weight": "320 grams"
+      },
+      "is_prime": true
+    },
+    {
+      "id": 20,
+      "name": "TCL 6-Series 65-inch 4K TV",
+      "category": "Electronics",
+      "price": 799.99,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviews": 400,
+      "description": "QLED TV with Dolby Vision and Roku built-in for smart entertainment.",
+      "image": "https://example.com/images/tcltv.jpg",
+      "brand": "TCL",
+      "stock": 90,
+      "specifications": {
+        "screen_size": "65 inches",
+        "resolution": "4K",
+        "hdmi_ports": "4",
+        "smart_tv": true
+      },
+      "is_prime": true
+    },
+    {
+      "id": 21,
+      "name": "Keurig K-Elite Coffee Maker",
+      "category": "Home Appliances",
+      "price": 149.99,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviews": 650,
+      "description": "Single-serve K-Cup coffee maker with strong brew and iced coffee settings.",
+      "image": "https://example.com/images/keurigkelite.jpg",
+      "brand": "Keurig",
+      "stock": 250,
+      "specifications": {
+        "brew_size": "6, 8, 10, 12 oz",
+        "features": ["Iced coffee", "Strong brew", "Auto off"]
+      },
+      "is_prime": false
+    },
+    {
+      "id": 22,
+      "name": "iRobot Roomba i7+ Robot Vacuum",
+      "category": "Home Appliances",
+      "price": 799.99,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviews": 700,
+      "description": "Robot vacuum with smart mapping and self-emptying dustbin.",
+      "image": "https://example.com/images/irobotroomba.jpg",
+      "brand": "iRobot",
+      "stock": 100,
+      "specifications": {
+        "battery_life": "90 minutes",
+        "features": ["Smart mapping", "Self-emptying"]
+      },
+      "is_prime": true
+    },
+    {
+      "id": 23,
+      "name": "Dyson V11 Torque Drive Cordless Vacuum",
+      "category": "Home Appliances",
+      "price": 599.99,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviews": 850,
+      "description": "Powerful cordless vacuum with advanced filtration and longer runtime.",
+      "image": "https://example.com/images/dysonv11.jpg",
+      "brand": "Dyson",
+      "stock": 120,
+      "specifications": {
+        "battery_life": "60 minutes",
+        "features": ["Advanced filtration", "Multiple attachments"]
+      },
+      "is_prime": false
+    },
+    {
+      "id": 24,
+      "name": "KitchenAid Artisan Stand Mixer",
+      "category": "Home Appliances",
+      "price": 379.99,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviews": 500,
+      "description": "Stand mixer with 10-speed settings and 5-quart capacity.",
+      "image": "https://example.com/images/kitchenaidmixer.jpg",
+      "brand": "KitchenAid",
+      "stock": 60,
+      "specifications": {
+        "capacity": "5 quarts",
+        "speed_settings": "10",
+        "material": "Die-cast metal"
+      },
+      "is_prime": true
+    },
+    {
+      "id": 25,
+      "name": "Nest Learning Thermostat",
+      "category": "Home Appliances",
+      "price": 249.99,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviews": 600,
+      "description": "Smart thermostat with energy-saving features and remote control.",
+      "image": "https://example.com/images/nestthermostat.jpg",
+      "brand": "Google",
+      "stock": 130,
+      "specifications": {
+        "battery_life": "3 hours",
+        "features": ["Energy-saving", "Remote control"]
+      },
+      "is_prime": false
+    },
+    {
+      "id": 26,
+      "name": "Philips Sonicare DiamondClean Smart Toothbrush",
+      "category": "Health & Personal Care",
+      "price": 299.99,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviews": 700,
+      "description": "Premium electric toothbrush with smart sensors and multiple cleaning modes.",
+      "image": "https://example.com/images/sonicarebrush.jpg",
+      "brand": "Philips",
+      "stock": 150,
+      "specifications": {
+        "battery_life": "2 weeks",
+        "features": ["Smart sensors", "Multiple cleaning modes"]
+      },
+      "is_prime": true
+    },
+    {
+      "id": 27,
+      "name": "Oral-B Genius X Electric Toothbrush",
+      "category": "Health & Personal Care",
+      "price": 249.99,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviews": 800,
+      "description": "Smart electric toothbrush with real-time feedback and position detection.",
+      "image": "https://example.com/images/oralbgx.jpg",
+      "brand": "Oral-B",
+      "stock": 180,
+      "specifications": {
+        "battery_life": "10 days",
+        "features": ["Real-time feedback", "Position detection"]
+      },
+      "is_prime": true
+    },
+    {
+      "id": 28,
+      "name": "Crest 3D Whitestrips Glamorous White Teeth Whitening Kit",
+      "category": "Health & Personal Care",
+      "price": 44.99,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviews": 400,
+      "description": "Whitening kit with advanced seal technology for brighter and whiter teeth.",
+      "image": "https://example.com/images/crestwhitestrips.jpg",
+      "brand": "Crest",
+      "stock": 250,
+      "specifications": {
+        "quantity": "20 strips",
+        "features": ["Advanced seal technology", "Whiter teeth"]
+      },
+      "is_prime": false
+    },
+    {
+      "id": 29,
+      "name": "Revlon One-Step Hair Dryer & Volumizer",
+      "category": "Health & Personal Care",
+      "price": 59.99,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviews": 1200,
+      "description": "Hair dryer and volumizer in one, with ceramic coating for smoother styling.",
+      "image": "https://example.com/images/revlonhairdryer.jpg",
+      "brand": "Revlon",
+      "stock": 300,
+      "specifications": {
+        "material": "Ceramic",
+        "features": ["Hair dryer", "Volumizer"]
+      },
+      "is_prime": true
+    },
+    {
+      "id": 30,
+      "name": "Sunsweet California Pitted Prunes",
+      "category": "Grocery & Gourmet Food",
+      "price": 14.99,
+      "currency": "USD",
+      "rating": 4.3,
+      "reviews": 350,
+      "description": "Delicious, nutrient-packed pitted prunes from California.",
+      "image": "https://example.com/images/sunsweetprunes.jpg",
+      "brand": "Sunsweet",
+      "stock": 500,
+      "specifications": {
+        "weight": "16 oz",
+        "features": ["Pitted", "Nutrient-packed"]
+      },
+      "is_prime": false
+    }
+  ]
+}
