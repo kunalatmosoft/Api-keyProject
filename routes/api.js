@@ -93,8 +93,6 @@ const cacheClient = require("../cache/cacheClient");
 
 const router = express.Router();
 
-  // Allow all domains to access
-
 // Path to data.json file
 const dataPath = path.join(__dirname, "../data.json");
 
@@ -109,6 +107,7 @@ const getData = () => {
         return null;
     }
 };
+
 // Connection check route (no API key required)
 router.get("/check-connections", async (req, res) => {
     try {
@@ -175,21 +174,22 @@ router.get("/data", async (req, res) => {
     try {
         // First, try to get data from Redis cache
         const cachedData = await cacheClient.get(cacheKey);
-        
+
+        // If cache exists and is not expired, serve data from Redis
         if (cachedData) {
             console.log("Serving data from Redis cache");
             return res.json(JSON.parse(cachedData));
         }
 
-        // If no cached data, load from JSON file
+        // If no cached data or expired cache, load from JSON file
         const data = getData();
         if (!data) {
             return res.status(500).json({ error: "Failed to load data from JSON" });
         }
 
-        // Cache the data in Redis for 1 hour
+        // Cache the data in Redis for 30 minutes (1800 seconds)
         await cacheClient.set(cacheKey, JSON.stringify(data), {
-            EX: 1800 // Set expiration time (1 hour)
+            EX: 1800, // Cache expires after 30 minutes
         });
         console.log("Data fetched from JSON and cached in Redis");
 
