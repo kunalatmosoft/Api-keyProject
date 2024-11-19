@@ -18,7 +18,10 @@
               "camera": "48 MP",
               "battery": "4323 mAh"
           },
-          "is_prime": true
+          "is_prime": true,
+          "sources": 
+            {
+              "platform": "Amazon"            }
       },
       {
           "id": 2,
@@ -38,7 +41,11 @@
               "camera": "50 MP",
               "battery": "3700 mAh"
           },
-          "is_prime": false
+          "is_prime": false,
+          "sources": 
+          {
+            "platform": "Flipkart"
+          }
       },
       {
           "id": 3,
@@ -57,7 +64,10 @@
               "connectivity": "Bluetooth 5.0",
               "weight": "250 grams"
           },
-          "is_prime": true
+          "is_prime": true,
+          "sources": 
+          {
+            "platform": "Blinkit"            }
       },
       {
           "id": 4,
@@ -76,7 +86,10 @@
               "weight": "290 grams",
               "size_range": "7-14 US"
           },
-          "is_prime": false
+          "is_prime": false,
+          "sources": 
+          {
+            "platform": "Walmart"            }
       },
       {
           "id": 5,
@@ -96,7 +109,10 @@
               "storage": "256 GB SSD",
               "display": "13.3 inches"
           },
-          "is_prime": true
+          "is_prime": true,
+          "sources": 
+          {
+            "platform": "Flipkart"            }
       },
       {
           "id": 6,
@@ -116,7 +132,10 @@
               "storage": "512 GB SSD",
               "display": "13.3 inches"
           },
-          "is_prime": true
+          "is_prime": true,
+          "sources": 
+          {
+            "platform": "Walmart"            }
       },
       {
           "id": 7,
@@ -136,7 +155,10 @@
               "hdmi_ports": "4",
               "smart_tv": true
           },
-          "is_prime": false
+          "is_prime": false,
+          "sources": 
+          {
+            "platform": "Flipkart"            }
       },
       {
           "id": 8,
@@ -155,7 +177,10 @@
               "ram": "16 GB",
               "storage": "825 GB SSD"
           },
-          "is_prime": true
+          "is_prime": true,
+          "sources": 
+          {
+            "platform": "Zepto"            }
       },
       {
           "id": 9,
@@ -174,7 +199,10 @@
               "fit": "Straight",
               "size_range": "30-40"
           },
-          "is_prime": false
+          "is_prime": false,
+          "sources": 
+          {
+            "platform": "Zepto"            }
       },
       {
           "id": 10,
@@ -193,7 +221,10 @@
               "sole": "Rubber",
               "weight": "310 grams"
           },
-          "is_prime": true
+          "is_prime": true,
+          "sources": 
+          {
+            "platform": "Amazon"            }
       },
       {
           "id": 11,
@@ -216,7 +247,10 @@
                   "Heart rate monitor"
               ]
           },
-          "is_prime": false
+          "is_prime": false,
+          "sources": 
+          {
+            "platform": "Amazon"            }
       },
       {
           "id": 12,
@@ -236,7 +270,10 @@
               "hdmi_ports": "3",
               "smart_tv": true
           },
-          "is_prime": true
+          "is_prime": true,
+          "sources": 
+          {
+            "platform": "Amazon"            }
       },
       {
           "id": 13,
@@ -255,7 +292,10 @@
               "connectivity": "Bluetooth 5.1",
               "noise_cancellation": true
           },
-          "is_prime": false
+          "is_prime": false,
+          "sources": 
+          {
+            "platform": "Amazon"            }
       },
       {
           "id": 14,
@@ -274,7 +314,10 @@
               "connectivity": "Bluetooth 5.0",
               "noise_cancellation": true
           },
-          "is_prime": true
+          "is_prime": true,
+          "sources": 
+          {
+            "platform": "Zepto"            }
       },
       {
           "id": 15,
@@ -296,7 +339,10 @@
                   "Sleep tracking"
               ]
           },
-          "is_prime": false
+          "is_prime": false,
+          "sources": 
+          {
+            "platform": "Walmart"            }
       },
       {
           "id": 16,
@@ -316,7 +362,10 @@
               "storage": "512 GB SSD",
               "display": "13.3 inches"
           },
-          "is_prime": true
+          "is_prime": true,
+          "sources": 
+          {
+            "platform": "Zepto"            }
       },
       {
           "id": 17,
@@ -335,7 +384,10 @@
               "video_resolution": "1080p Full HD",
               "screen_size": "3 inches"
           },
-          "is_prime": false
+          "is_prime": false,
+          "sources": 
+          {
+            "platform": "Amazon"            }
       },
       {
           "id": 18,
@@ -354,7 +406,10 @@
               "connectivity": "Bluetooth 5.2",
               "noise_cancellation": true
           },
-          "is_prime": false
+          "is_prime": false,
+          "sources": 
+          {
+            "platform": "Flipkart"            }
       },
       {
           "id": 19,
@@ -373,7 +428,10 @@
               "sole": "Rubber",
               "weight": "320 grams"
           },
-          "is_prime": true
+          "is_prime": true,
+          "sources": 
+          {
+            "platform": "Flipkart"            }
       },
       {
           "id": 20,
@@ -393,7 +451,10 @@
               "hdmi_ports": "4",
               "smart_tv": true
           },
-          "is_prime": true
+          "is_prime": true,
+          "sources": 
+          {
+            "platform": "Walmart"            }
       },
       {
           "id": 21,
@@ -415,7 +476,10 @@
                   "Auto off"
               ]
           },
-          "is_prime": false
+          "is_prime": false,
+          "sources": 
+          {
+            "platform": "Amazon"            }
       },
       {
           "id": 22,
@@ -436,7 +500,10 @@
                   "Self-emptying"
               ]
           },
-          "is_prime": true
+          "is_prime": true,
+          "sources": 
+          {
+            "platform": "Blinkit"            }
       },
       {
           "id": 23,
@@ -457,7 +524,10 @@
                   "Multiple attachments"
               ]
           },
-          "is_prime": false
+          "is_prime": false,
+          "sources": 
+          {
+            "platform": "Blinkit"            }
       },
       {
           "id": 24,
@@ -476,7 +546,10 @@
               "speed_settings": "10",
               "material": "Die-cast metal"
           },
-          "is_prime": true
+          "is_prime": true,
+          "sources": 
+          {
+            "platform": "Amazon"            }
       },
       {
           "id": 25,
@@ -497,7 +570,10 @@
                   "Remote control"
               ]
           },
-          "is_prime": false
+          "is_prime": false,
+          "sources": 
+          {
+            "platform": "Zepto"            }
       },
       {
           "id": 26,
@@ -518,7 +594,10 @@
                   "Multiple cleaning modes"
               ]
           },
-          "is_prime": true
+          "is_prime": true,
+          "sources": 
+          {
+            "platform": "Blinkit"            }
       },
       {
           "id": 27,
@@ -539,7 +618,10 @@
                   "Position detection"
               ]
           },
-          "is_prime": true
+          "is_prime": true,
+          "sources": 
+          {
+            "platform": "Amazon"            }
       },
       {
           "id": 28,
@@ -560,7 +642,10 @@
                   "Whiter teeth"
               ]
           },
-          "is_prime": false
+          "is_prime": false,
+          "sources": 
+          {
+            "platform": "Blinkit"            }
       },
       {
           "id": 29,
@@ -581,7 +666,10 @@
                   "Volumizer"
               ]
           },
-          "is_prime": true
+          "is_prime": true,
+          "sources": 
+          {
+            "platform": "Flipkart"            }
       },
       {
           "id": 30,
@@ -602,7 +690,10 @@
                   "Nutrient-packed"
               ]
           },
-          "is_prime": false
+          "is_prime": false,
+          "sources": 
+          {
+            "platform": "Blinkit"            }
       }
   ]
 }
