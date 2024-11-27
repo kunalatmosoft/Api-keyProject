@@ -982,7 +982,7 @@
                 "Carbohydrates t": "58.3 g",
                 "features": [
                     "Natural Unsweetened ",
-                    "Finest Cocoa "
+                    "Finest Cocoa"
                 ]
             },
             "is_prime": false,
@@ -1153,7 +1153,7 @@
         },
         {
             "id": 48,
-            "name": " LEVI’S Men's Checkered Spread Collar Shirt",
+            "name": "LEVI’S Men's Checkered Spread Collar Shirt",
             "category": "Fashion",
             "price": 3039,
             "currency": "INR",
@@ -1180,7 +1180,7 @@
         },
         {
             "id": 49,
-            "name": " Woodland Men's Leather Sneaker",
+            "name": "Woodland Men's Leather Sneaker",
             "category": "Fashion",
             "price": 3036,
             "currency": "INR",
@@ -1207,7 +1207,7 @@
         },
         {
             "id": 50,
-            "name": " UNIQLO Ultra Light Down Vest",
+            "name": "UNIQLO Ultra Light Down Vest",
             "category": "Fashion",
             "price": 2990,
             "currency": "INR",
@@ -1234,8 +1234,8 @@
         },
         {
             "id": 51,
-            "name": " Orient Electric Areva Portable Room Heater",
-            "category": " Home Appliances ",
+            "name": "Orient Electric Areva Portable Room Heater",
+            "category": "Home Appliances",
             "price": 1449,
             "currency": "INR",
             "rating": 4,
@@ -1246,7 +1246,7 @@
             "stock": 56,
             "specifications": {
                 "Power Rating": "2000 Watt",
-                "Form Factor ": " Pedestal ",
+                "Form Factor ": "Pedestal",
                 "Color": "White",
                 "features": [
                     "Fast Heating",
@@ -1261,13 +1261,13 @@
         },
         {
             "id": 52,
-            "name": " Pigeon by Stove kraft Amaze Plus Electric Kettle",
-            "category": " Home Appliances ",
+            "name": "Pigeon by Stove kraft Amaze Plus Electric Kettle",
+            "category": "Home Appliances",
             "price": 549,
             "currency": "INR",
             "rating": 3.9,
             "reviews": 1602,
-            "description": " The Pigeon Amaze Plus Electric Kettle features a stainless steel body with a 1.5-litre capacity, designed for quickly boiling water, tea, coffee, instant noodles, soups, and more.",
+            "description": "The Pigeon Amaze Plus Electric Kettle features a stainless steel body with a 1.5-litre capacity, designed for quickly boiling water, tea, coffee, instant noodles, soups, and more.",
             "image": "https://m.media-amazon.com/images/I/51DGcy8eBCL.jpg",
             "brand": "STOVE KRAFT",
             "stock": 456,
@@ -1288,13 +1288,13 @@
         },
         {
             "id": 53,
-            "name": " Whirlpool 7 Kg 5 Star Royal Fully-Automatic Top Loading Washing Machine",
-            "category": " Home Appliances ",
+            "name": "Whirlpool 7 Kg 5 Star Royal Fully-Automatic Top Loading Washing Machine",
+            "category": "Home Appliances",
             "price": 14590,
             "currency": "INR",
             "rating": 4.0,
             "reviews": 1133,
-            "description": " The Whirlpool Washing Machine features Hard Water Wash, ZPF Technology for low-pressure water filling, and energy-efficient performance. ",
+            "description": "The Whirlpool Washing Machine features Hard Water Wash, ZPF Technology for low-pressure water filling, and energy-efficient performance. ",
             "image": "https://m.media-amazon.com/images/I/61lxAOttcYL._AC_UF1000,1000_QL80_.jpg",
             "brand": "WHIRLPOOL",
             "stock": 690,
@@ -1304,7 +1304,7 @@
                 "Motor": "740 RPM",
                 "features": [
                     "ZPF Technology",
-                    " Hard water wash",
+                    "Hard water wash",
                     "Water Level Indicator"
                 ]
             },
@@ -1315,13 +1315,13 @@
         },
         {
             "id": 54,
-            "name": " IFB 24 L Solo Microwave Oven",
-            "category": " Home Appliances ",
+            "name": "IFB 24 L Solo Microwave Oven",
+            "category": "Home Appliances",
             "price": 6890,
             "currency": "INR",
             "rating": 4.0,
             "reviews": 1133,
-            "description": " The IFB Oven compact microwave offers quick and efficient cooking with multiple power settings, a sleek design, and easy-to-use controls, perfect for any kitchen.. ",
+            "description": "The IFB Oven compact microwave offers quick and efficient cooking with multiple power settings, a sleek design, and easy-to-use controls, perfect for any kitchen.. ",
             "image": "https://m.media-amazon.com/images/I/61hD-fVYjcL.jpg",
             "brand": "IFB",
             "stock": 90,
@@ -1331,7 +1331,7 @@
                 "color": "Black",
                 "features": [
                     "Control Touch key pad",
-                    " 69 Auto cooking method",
+                    "69 Auto cooking method",
                     "5 levels of safety"
                 ]
             },
@@ -1342,13 +1342,13 @@
         },
         {
             "id": 55,
-            "name": " Havells Capture 500 Watts 3 Jar Mixer Grinder",
-            "category": " Home Appliances ",
+            "name": "Havells Capture 500 Watts 3 Jar Mixer Grinder",
+            "category": "Home Appliances",
             "price": 2099,
             "currency": "INR",
             "rating": 4.1,
             "reviews": 695,
-            "description": " This powerful mixer grinder features multiple jars and high-speed motors, making it ideal for blending, grinding, and mixing ingredients with ease and efficiency",
+            "description": "This powerful mixer grinder features multiple jars and high-speed motors, making it ideal for blending, grinding, and mixing ingredients with ease and efficiency",
             "image": "https://m.media-amazon.com/images/I/61IoedLkkjL._AC_UF894,1000_QL80_.jpg",
             "brand": "Havells",
             "stock": 190,
@@ -1369,13 +1369,13 @@
         },
         {
             "id": 56,
-            "name": " Wellcore - Pure Micronised Creatine Monohydrate",
-            "category": "Health & Personal Care ",
+            "name": "Wellcore - Pure Micronised Creatine Monohydrate",
+            "category": "Health & Personal Care",
             "price": 539,
             "currency": "INR",
             "rating": 4.3,
             "reviews": 522,
-            "description": " Every scoop of Wellcore Creatine Monohydrate delivers the fuel for your physical performance. It helps you train harder, lift heavier, and recover faster.",
+            "description": "Every scoop of Wellcore Creatine Monohydrate delivers the fuel for your physical performance. It helps you train harder, lift heavier, and recover faster.",
             "image": "https://m.media-amazon.com/images/I/71wLbVnsgSL.jpg",
             "brand": "Wellversed ",
             "stock": 600,
@@ -1396,13 +1396,13 @@
         },
         {
             "id": 57,
-            "name": " Philips Battery Powered Skin Protect Beard Trimmer for Men",
-            "category": "Health & Personal Care ",
+            "name": "Philips Battery Powered Skin Protect Beard Trimmer for Men",
+            "category": "Health & Personal Care",
             "price": 696,
             "currency": "INR",
             "rating": 4,
             "reviews": 791,
-            "description": " Get a skin friendly trim with the help of Skin Protect Comb. It gives you a comfortable clean look while providing extra skin protection. The comb guides the skin away from the blades for a close, smooth trim. 2.  Get a perfect but protective trim with self-sharpening steel blades.",
+            "description": "Get a skin friendly trim with the help of Skin Protect Comb. It gives you a comfortable clean look while providing extra skin protection. The comb guides the skin away from the blades for a close, smooth trim. 2.  Get a perfect but protective trim with self-sharpening steel blades.",
             "image": "https://m.media-amazon.com/images/I/61VRH0jQrRL._AC_UF1000,1000_QL80_.jpg",
             "brand": "Philips ",
             "stock": 342,
@@ -1413,7 +1413,7 @@
                 "Color": "Blue",
                 "features": [
                     "Cordless ",
-                    " Rechargeable "
+                    "Rechargeable"
                 ]
             },
             "is_prime": false,
@@ -1423,15 +1423,15 @@
         },
         {
             "id": 58,
-            "name": " Dr. Morepen BG-03 Gluco One Glucometer",
-            "category": "Health & Personal Care ",
+            "name": "Dr. Morepen BG-03 Gluco One Glucometer",
+            "category": "Health & Personal Care",
             "price": 710,
             "currency": "INR",
             "rating": 4.1,
             "reviews": 439,
-            "description": " Dr. Morepen Blood Glucose Monitor Model BG 03 is an Auto Code Monitor that requires a very tiny blood sample (0.5ul only) and shows the test result in just 5 seconds. ",
+            "description": "Dr. Morepen Blood Glucose Monitor Model BG 03 is an Auto Code Monitor that requires a very tiny blood sample (0.5ul only) and shows the test result in just 5 seconds. ",
             "image": "https://m.media-amazon.com/images/I/71xExwFHEZL._AC_UF1000,1000_QL80_.jpg",
-            "brand": " Dr. Morepen ",
+            "brand": "Dr. Morepen",
             "stock": 389,
             "specifications": {
                 "Weight": "200 g",
@@ -1439,9 +1439,9 @@
                 "power source": "Lithium Battery",
                 "Color": "White",
                 "features": [
-                    " Auto Code Monitor ",
-                    " Only 0.5µL blood required",
-                    " Result in 5 Seconds "
+                    "Auto Code Monitor ",
+                    "Only 0.5µL blood required",
+                    "Result in 5 Seconds "
                 ]
             },
             "is_prime": false,
@@ -1451,24 +1451,24 @@
         },
         {
             "id": 59,
-            "name": " Beardo Godfather Perfume for Men",
+            "name": "Beardo Godfather Perfume for Men",
             "category": "Health & Personal Care ",
             "price": 552,
             "currency": "INR",
             "rating": 3.8,
             "reviews": 1280,
-            "description": " Be prepared to captivate the senses of one and all with the powerful enigma of Beardo Godfather EDP.",
+            "description": "Be prepared to captivate the senses of one and all with the powerful enigma of Beardo Godfather EDP.",
             "image": "https://m.media-amazon.com/images/I/41Ds9rnPpqL._AC_UF1000,1000_QL80_.jpg",
-            "brand": " Beardo ",
+            "brand": "Beardo",
             "stock": 776,
             "specifications": {
                 "Capacity": "100 ml",
                 "Item Form": "Liquid ",
                 "Scent": "Spicy",
                 "features": [
-                    "Long Lasting ",
-                    " Aromatic ",
-                    " Zero Alcohol"
+                    "Long Lasting",
+                    "Aromatic",
+                    "Zero Alcohol"
                 ]
             },
             "is_prime": false,
@@ -1478,24 +1478,24 @@
         },
         {
             "id": 60,
-            "name": " Cetaphil Dam Daily Advance Ultra Hydrating Lotion",
-            "category": "Health & Personal Care ",
+            "name": "Cetaphil Dam Daily Advance Ultra Hydrating Lotion",
+            "category": "Health & Personal Care",
             "price": 221,
             "currency": "INR",
             "rating": 4.2,
             "reviews": 1075,
-            "description": " Cetaphil DAM Daily Advance Ultra Hydrating Lotion contains a unique combination of 5 key ingredients that protects dry skin and enhances hydration. It is clinically proven to provide 48 hours of skin comfort after a single application.",
+            "description": "Cetaphil DAM Daily Advance Ultra Hydrating Lotion contains a unique combination of 5 key ingredients that protects dry skin and enhances hydration. It is clinically proven to provide 48 hours of skin comfort after a single application.",
             "image": "https://m.media-amazon.com/images/I/51U3KlUV8HL._AC_UF1000,1000_QL80_.jpg",
-            "brand": " Cetaphil ",
+            "brand": "Cetaphil",
             "stock": 908,
             "specifications": {
                 "Weight": "30 g",
                 "Skin Type": "Sensitive and dry ",
                 "Item Form": "Cream",
                 "features": [
-                    "Non Greasy  ",
-                    "Dermatologists recommended ",
-                    " Sulphate free"
+                    "Non Greasy",
+                    "Dermatologists recommended",
+                    "Sulphate free"
                 ]
             },
             "is_prime": false,
