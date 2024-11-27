@@ -1,699 +1,1507 @@
 {
-  "products": [
-      {
-          "id": 1,
-          "name": "Apple iPhone 14 Pro Max",
-          "category": "Electronics",
-          "price": 1099,
-          "currency": "USD",
-          "rating": 4.8,
-          "reviews": 1200,
-          "description": "The latest iPhone with a 6.7-inch display and A16 Bionic chip.",
-       "image": "https://m.media-amazon.com/images/I/71yzJoE7WlL._AC_UF1000,1000_QL80_.jpg",
-          "brand": "Apple",
-          "stock": 100,
-          "specifications": {
-              "display": "6.7 inches",
-              "processor": "A16 Bionic",
-              "camera": "48 MP",
-              "battery": "4323 mAh"
-          },
-          "is_prime": true,
-          "sources": 
-            {
-              "platform": "Amazon"            }
-      },
-      {
-          "id": 2,
-          "name": "Samsung Galaxy S22",
-          "category": "Electronics",
-          "price": 799,
-          "currency": "USD",
-          "rating": 4.5,
-          "reviews": 800,
-          "description": "The Samsung Galaxy S22 with an AMOLED display and Snapdragon 8 Gen 1.",
-      "image": "https://m.media-amazon.com/images/I/71qZERyxy6L._AC_UF1000,1000_QL80_.jpg",
-          "brand": "Samsung",
-          "stock": 150,
-          "specifications": {
-              "display": "6.1 inches",
-              "processor": "Snapdragon 8 Gen 1",
-              "camera": "50 MP",
-              "battery": "3700 mAh"
-          },
-          "is_prime": false,
-          "sources": 
-          {
-            "platform": "Flipkart"
-          }
-      },
-      {
-          "id": 3,
-          "name": "Sony WH-1000XM5 Headphones",
-          "category": "Electronics",
-          "price": 348,
-          "currency": "USD",
-          "rating": 4.7,
-          "reviews": 500,
-          "description": "Wireless noise-canceling headphones with premium sound quality.",
-       "image": "https://m.media-amazon.com/images/I/51aXvjzcukL._AC_UF1000,1000_QL80_.jpg",
-          "brand": "Sony",
-          "stock": 200,
-          "specifications": {
-              "battery_life": "30 hours",
-              "connectivity": "Bluetooth 5.0",
-              "weight": "250 grams"
-          },
-          "is_prime": true,
-          "sources": 
-          {
-            "platform": "Blinkit"            }
-      },
-      {
-          "id": 4,
-          "name": "Nike Air Zoom Pegasus 39 Running Shoes",
-          "category": "Fashion",
-          "price": 120,
-          "currency": "USD",
-          "rating": 4.3,
-          "reviews": 320,
-          "description": "Comfortable and durable running shoes designed for long-distance runners.",
-          "image": "https://m.media-amazon.com/images/I/515gk0lB+jL._SY675_.jpg",
-          "brand": "Nike",
-          "stock": 300,
-          "specifications": {
-              "material": "Mesh and rubber",
-              "weight": "290 grams",
-              "size_range": "7-14 US"
-          },
-          "is_prime": false,
-          "sources": 
-          {
-            "platform": "Walmart"            }
-      },
-      {
-          "id": 5,
-          "name": "Apple MacBook Pro 13-inch",
-          "category": "Electronics",
-          "price": 1299,
-          "currency": "USD",
-          "rating": 4.6,
-          "reviews": 950,
-          "description": "Powerful 13-inch MacBook with Apple M2 chip and Retina display.",
-          "image": "https://m.media-amazon.com/images/I/711xdPNfEhL._AC_UY218_.jpg",               
-          "brand": "Apple",
-          "stock": 75,
-          "specifications": {
-              "processor": "Apple M2",
-              "ram": "8 GB",
-              "storage": "256 GB SSD",
-              "display": "13.3 inches"
-          },
-          "is_prime": true,
-          "sources": 
-          {
-            "platform": "Flipkart"            }
-      },
-      {
-          "id": 6,
-          "name": "Dell XPS 13 Laptop",
-          "category": "Electronics",
-          "price": 1099,
-          "currency": "USD",
-          "rating": 4.5,
-          "reviews": 400,
-          "description": "High-performance laptop with Intel i7 processor and 16 GB RAM.",
-          "image": "https://m.media-amazon.com/images/I/61s1d1AhQwL._AC_UY218_.jpg",
-          "brand": "Dell",
-          "stock": 50,
-          "specifications": {
-              "processor": "Intel i7",
-              "ram": "16 GB",
-              "storage": "512 GB SSD",
-              "display": "13.3 inches"
-          },
-          "is_prime": true,
-          "sources": 
-          {
-            "platform": "Walmart"            }
-      },
-      {
-          "id": 7,
-          "name": "Samsung 55-inch QLED TV",
-          "category": "Electronics",
-          "price": 799,
-          "currency": "USD",
-          "rating": 4.7,
-          "reviews": 320,
-          "description": "Stunning 4K QLED display with voice control and smart TV features.",
-          "image": "https://m.media-amazon.com/images/I/71oeLYE-BOL.jpg",
-          "brand": "Samsung",
-          "stock": 60,
-          "specifications": {
-              "screen_size": "55 inches",
-              "resolution": "4K",
-              "hdmi_ports": "4",
-              "smart_tv": true
-          },
-          "is_prime": false,
-          "sources": 
-          {
-            "platform": "Flipkart"            }
-      },
-      {
-          "id": 8,
-          "name": "Sony PlayStation 5",
-          "category": "Electronics",
-          "price": 499,
-          "currency": "USD",
-          "rating": 4.9,
-          "reviews": 2500,
-          "description": "Next-gen gaming console with lightning-fast load times and immersive gameplay.",
-          "image": "https://m.media-amazon.com/images/I/51ljnEaW0pL.jpg",
-          "brand": "Sony",
-          "stock": 100,
-          "specifications": {
-              "processor": "AMD Ryzen Zen 2",
-              "ram": "16 GB",
-              "storage": "825 GB SSD"
-          },
-          "is_prime": true,
-          "sources": 
-          {
-            "platform": "Zepto"            }
-      },
-      {
-          "id": 9,
-          "name": "Levi's 501 Original Fit Jeans",
-          "category": "Fashion",
-          "price": 49,
-          "currency": "USD",
-          "rating": 4.5,
-          "reviews": 1000,
-          "description": "Classic straight-leg jeans with a button fly and durable denim fabric.",
-          "image": "https://images-cdn.ubuy.co.in/64dca4fc6456c616f92f9d4a-levi-s-men-s-501-original-fit-jeans.jpg",
-          "brand": "Levi's",
-          "stock": 150,
-          "specifications": {
-              "material": "Cotton",
-              "fit": "Straight",
-              "size_range": "30-40"
-          },
-          "is_prime": false,
-          "sources": 
-          {
-            "platform": "Zepto"            }
-      },
-      {
-          "id": 10,
-          "name": "Adidas Ultraboost 22 Running Shoes",
-          "category": "Fashion",
-          "price": 180,
-          "currency": "USD",
-          "rating": 4.6,
-          "reviews": 500,
-          "description": "Comfortable running shoes with Boost cushioning and Primeknit upper.",
-          "image": "https://images-cdn.ubuy.co.in/66c0f6a750a9254fa57a1104-adidas-ultraboost-22-white-tintsky.jpg",
-          "brand": "Adidas",
-          "stock": 200,
-          "specifications": {
-              "material": "Primeknit",
-              "sole": "Rubber",
-              "weight": "310 grams"
-          },
-          "is_prime": true,
-          "sources": 
-          {
-            "platform": "Amazon"            }
-      },
-      {
-          "id": 11,
-          "name": "Samsung Galaxy Watch 5",
-          "category": "Electronics",
-          "price": 279,
-          "currency": "USD",
-          "rating": 4.4,
-          "reviews": 450,
-          "description": "Advanced smartwatch with health tracking, GPS, and heart rate monitor.",
-          "image": "https://m.media-amazon.com/images/I/613N2dwpPxL.jpg",
-          "brand": "Samsung",
-          "stock": 120,
-          "specifications": {
-              "display": "1.4 inches",
-              "battery_life": "48 hours",
-              "features": [
-                  "Health tracking",
-                  "GPS",
-                  "Heart rate monitor"
-              ]
-          },
-          "is_prime": false,
-          "sources": 
-          {
-            "platform": "Amazon"            }
-      },
-      {
-          "id": 12,
-          "name": "Lg 65-inch 4K UHD TV",
-          "category": "Electronics",
-          "price": 599,
-          "currency": "USD",
-          "rating": 4.6,
-          "reviews": 600,
-          "description": "Stunning 4K UHD TV with immersive audio and webOS smart features.",
-          "image": "https://m.media-amazon.com/images/I/7174Gs+VYuL.jpg",
-          "brand": "LG",
-          "stock": 80,
-          "specifications": {
-              "screen_size": "65 inches",
-              "resolution": "4K UHD",
-              "hdmi_ports": "3",
-              "smart_tv": true
-          },
-          "is_prime": true,
-          "sources": 
-          {
-            "platform": "Amazon"            }
-      },
-      {
-          "id": 13,
-          "name": "Bose QuietComfort 45 Headphones",
-          "category": "Electronics",
-          "price": 329,
-          "currency": "USD",
-          "rating": 4.7,
-          "reviews": 650,
-          "description": "Premium noise-canceling headphones with exceptional sound quality.",
-     "image": "https://m.media-amazon.com/images/I/51qfLURUtpL._AC_UF1000,1000_QL80_.jpg",
-          "brand": "Bose",
-          "stock": 100,
-          "specifications": {
-              "battery_life": "24 hours",
-              "connectivity": "Bluetooth 5.1",
-              "noise_cancellation": true
-          },
-          "is_prime": false,
-          "sources": 
-          {
-            "platform": "Amazon"            }
-      },
-      {
-          "id": 14,
-          "name": "Apple AirPods Pro 2nd Gen",
-          "category": "Electronics",
-          "price": 249,
-          "currency": "USD",
-          "rating": 4.8,
-          "reviews": 1400,
-          "description": "Active noise cancellation with transparency mode and improved sound quality.",
-     "image": "https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_UF1000,1000_QL80_.jpg",
-          "brand": "Apple",
-          "stock": 200,
-          "specifications": {
-              "battery_life": "6 hours",
-              "connectivity": "Bluetooth 5.0",
-              "noise_cancellation": true
-          },
-          "is_prime": true,
-          "sources": 
-          {
-            "platform": "Zepto"            }
-      },
-      {
-          "id": 15,
-          "name": "Fitbit Charge 5 Fitness Tracker",
-          "category": "Electronics",
-          "price": 129,
-          "currency": "USD",
-          "rating": 4.3,
-          "reviews": 800,
-          "description": "Advanced fitness tracker with built-in GPS, heart rate monitoring, and sleep tracking.",
-          "image": "https://m.media-amazon.com/images/I/51YjNQZ0RDL.jpg",
-          "brand": "Fitbit",
-          "stock": 250,
-          "specifications": {
-              "battery_life": "7 days",
-              "features": [
-                  "GPS",
-                  "Heart rate monitoring",
-                  "Sleep tracking"
-              ]
-          },
-          "is_prime": false,
-          "sources": 
-          {
-            "platform": "Walmart"            }
-      },
-      {
-          "id": 16,
-          "name": "HP Spectre x360 Laptop",
-          "category": "Electronics",
-          "price": 1499,
-          "currency": "USD",
-          "rating": 4.7,
-          "reviews": 450,
-          "description": "Convertible laptop with Intel i7 processor, 16 GB RAM, and 512 GB SSD.",
-          "image": "https://m.media-amazon.com/images/I/71AgpORJXXL.jpg",
-          "brand": "HP",
-          "stock": 100,
-          "specifications": {
-              "processor": "Intel i7",
-              "ram": "16 GB",
-              "storage": "512 GB SSD",
-              "display": "13.3 inches"
-          },
-          "is_prime": true,
-          "sources": 
-          {
-            "platform": "Zepto"            }
-      },
-      {
-          "id": 17,
-          "name": "Canon EOS Rebel T7 DSLR Camera",
-          "category": "Electronics",
-          "price": 499,
-          "currency": "USD",
-          "rating": 4.6,
-          "reviews": 900,
-          "description": "DSLR camera with 24.1 MP resolution and 1080p Full HD video recording.",
-       "image": "https://m.media-amazon.com/images/I/813wMguZa1L._AC_UF350,350_QL80_.jpg",
-          "brand": "Canon",
-          "stock": 120,
-          "specifications": {
-              "megapixels": "24.1 MP",
-              "video_resolution": "1080p Full HD",
-              "screen_size": "3 inches"
-          },
-          "is_prime": false,
-          "sources": 
-          {
-            "platform": "Amazon"            }
-      },
-      {
-          "id": 18,
-          "name": "Sennheiser Momentum True Wireless 3",
-          "category": "Electronics",
-          "price": 249,
-          "currency": "USD",
-          "rating": 4.7,
-          "reviews": 750,
-          "description": "Premium wireless earbuds with active noise cancellation and deep bass.",
-          "image": "https://m.media-amazon.com/images/I/61FWJyKS9aL.jpg",
-          "brand": "Sennheiser",
-          "stock": 200,
-          "specifications": {
-              "battery_life": "7 hours",
-              "connectivity": "Bluetooth 5.2",
-              "noise_cancellation": true
-          },
-          "is_prime": false,
-          "sources": 
-          {
-            "platform": "Flipkart"            }
-      },
-      {
-          "id": 19,
-          "name": "Nike Air Max 270 React",
-          "category": "Fashion",
-          "price": 150,
-          "currency": "USD",
-          "rating": 4.5,
-          "reviews": 600,
-          "description": "Stylish sneakers with responsive cushioning and durable outsole.",
-          "image": "https://images-cdn.ubuy.co.in/64a4e86565ab3d1f024ad5d0-nike-air-max-270-react-wtr-mens-sneakers.jpg",
-          "brand": "Nike",
-          "stock": 180,
-          "specifications": {
-              "material": "Synthetic",
-              "sole": "Rubber",
-              "weight": "320 grams"
-          },
-          "is_prime": true,
-          "sources": 
-          {
-            "platform": "Flipkart"            }
-      },
-      {
-          "id": 20,
-          "name": "TCL 6-Series 65-inch 4K TV",
-          "category": "Electronics",
-          "price": 799,
-          "currency": "USD",
-          "rating": 4.8,
-          "reviews": 400,
-          "description": "QLED TV with Dolby Vision and Roku built-in for smart entertainment.",
-    "image": "https://m.media-amazon.com/images/I/81JPZOa8HkL._AC_UF1000,1000_QL80_.jpg",
-          "brand": "TCL",
-          "stock": 90,
-          "specifications": {
-              "screen_size": "65 inches",
-              "resolution": "4K",
-              "hdmi_ports": "4",
-              "smart_tv": true
-          },
-          "is_prime": true,
-          "sources": 
-          {
-            "platform": "Walmart"            }
-      },
-      {
-          "id": 21,
-          "name": "Keurig K-Elite Coffee Maker",
-          "category": "Home Appliances",
-          "price": 149,
-          "currency": "USD",
-          "rating": 4.7,
-          "reviews": 650,
-          "description": "Single-serve K-Cup coffee maker with strong brew and iced coffee settings.",
-       "image": "https://m.media-amazon.com/images/I/71ihRUUFvkL._AC_UF894,1000_QL80_.jpg",
-          "brand": "Keurig",
-          "stock": 250,
-          "specifications": {
-              "brew_size": "6, 8, 10, 12 oz",
-              "features": [
-                  "Iced coffee",
-                  "Strong brew",
-                  "Auto off"
-              ]
-          },
-          "is_prime": false,
-          "sources": 
-          {
-            "platform": "Amazon"            }
-      },
-      {
-          "id": 22,
-          "name": "iRobot Roomba i7+ Robot Vacuum",
-          "category": "Home Appliances",
-          "price": 799,
-          "currency": "USD",
-          "rating": 4.8,
-          "reviews": 700,
-          "description": "Robot vacuum with smart mapping and self-emptying dustbin.",
-     "image": "https://m.media-amazon.com/images/I/51mk1dEtqNL._AC_UF894,1000_QL80_.jpg",
-          "brand": "iRobot",
-          "stock": 100,
-          "specifications": {
-              "battery_life": "90 minutes",
-              "features": [
-                  "Smart mapping",
-                  "Self-emptying"
-              ]
-          },
-          "is_prime": true,
-          "sources": 
-          {
-            "platform": "Blinkit"            }
-      },
-      {
-          "id": 23,
-          "name": "Dyson V11 Torque Drive Cordless Vacuum",
-          "category": "Home Appliances",
-          "price": 599,
-          "currency": "USD",
-          "rating": 4.7,
-          "reviews": 850,
-          "description": "Powerful cordless vacuum with advanced filtration and longer runtime.",
-         "image": "https://images-eu.ssl-images-amazon.com/images/I/61-K1LeoE5L._AC_UL600_SR600,600_.jpg",
-          "brand": "Dyson",
-          "stock": 120,
-          "specifications": {
-              "battery_life": "60 minutes",
-              "features": [
-                  "Advanced filtration",
-                  "Multiple attachments"
-              ]
-          },
-          "is_prime": false,
-          "sources": 
-          {
-            "platform": "Blinkit"            }
-      },
-      {
-          "id": 24,
-          "name": "KitchenAid Artisan Stand Mixer",
-          "category": "Home Appliances",
-          "price": 379,
-          "currency": "USD",
-          "rating": 4.8,
-          "reviews": 500,
-          "description": "Stand mixer with 10-speed settings and 5-quart capacity.",
-       "image": "https://m.media-amazon.com/images/I/51ZjhSjQQPL._AC_UF894,1000_QL80_.jpg",
-          "brand": "KitchenAid",
-          "stock": 60,
-          "specifications": {
-              "capacity": "5 quarts",
-              "speed_settings": "10",
-              "material": "Die-cast metal"
-          },
-          "is_prime": true,
-          "sources": 
-          {
-            "platform": "Amazon"            }
-      },
-      {
-          "id": 25,
-          "name": "Nest Learning Thermostat",
-          "category": "Home Appliances",
-          "price": 249,
-          "currency": "USD",
-          "rating": 4.6,
-          "reviews": 600,
-          "description": "Smart thermostat with energy-saving features and remote control.",
-         "image": "https://m.media-amazon.com/images/I/71ubizMsdKL._AC_UF350,350_QL80_.jpg",
-          "brand": "Google",
-          "stock": 130,
-          "specifications": {
-              "battery_life": "3 hours",
-              "features": [
-                  "Energy-saving",
-                  "Remote control"
-              ]
-          },
-          "is_prime": false,
-          "sources": 
-          {
-            "platform": "Zepto"            }
-      },
-      {
-          "id": 26,
-          "name": "Philips Sonicare DiamondClean Smart Toothbrush",
-          "category": "Health & Personal Care",
-          "price": 299,
-          "currency": "USD",
-          "rating": 4.8,
-          "reviews": 700,
-          "description": "Premium electric toothbrush with smart sensors and multiple cleaning modes.",
-          "image": "https://m.media-amazon.com/images/I/81SytLhjjIL.jpg",
-          "brand": "Philips",
-          "stock": 150,
-          "specifications": {
-              "battery_life": "2 weeks",
-              "features": [
-                  "Smart sensors",
-                  "Multiple cleaning modes"
-              ]
-          },
-          "is_prime": true,
-          "sources": 
-          {
-            "platform": "Blinkit"            }
-      },
-      {
-          "id": 27,
-          "name": "Oral-B Genius X Electric Toothbrush",
-          "category": "Health & Personal Care",
-          "price": 249,
-          "currency": "USD",
-          "rating": 4.7,
-          "reviews": 800,
-          "description": "Smart electric toothbrush with real-time feedback and position detection.",
-          "image": "https://m.media-amazon.com/images/I/81SdH-AwcSL.jpg",
-          "brand": "Oral-B",
-          "stock": 180,
-          "specifications": {
-              "battery_life": "10 days",
-              "features": [
-                  "Real-time feedback",
-                  "Position detection"
-              ]
-          },
-          "is_prime": true,
-          "sources": 
-          {
-            "platform": "Amazon"            }
-      },
-      {
-          "id": 28,
-          "name": "Crest 3D Whitestrips Glamorous White Teeth Whitening Kit",
-          "category": "Health & Personal Care",
-          "price": 44,
-          "currency": "USD",
-          "rating": 4.5,
-          "reviews": 400,
-          "description": "Whitening kit with advanced seal technology for brighter and whiter teeth.",
-          "image": "https://images-cdn.ubuy.qa/64f40dcd81e23317591f7c63-crest-3d-whitestrips-glamorous-white.jpg",
-          "brand": "Crest",
-          "stock": 250,
-          "specifications": {
-              "quantity": "20 strips",
-              "features": [
-                  "Advanced seal technology",
-                  "Whiter teeth"
-              ]
-          },
-          "is_prime": false,
-          "sources": 
-          {
-            "platform": "Blinkit"            }
-      },
-      {
-          "id": 29,
-          "name": "Revlon One-Step Hair Dryer & Volumizer",
-          "category": "Health & Personal Care",
-          "price": 59,
-          "currency": "USD",
-          "rating": 4.6,
-          "reviews": 1200,
-          "description": "Hair dryer and volumizer in one, with ceramic coating for smoother styling.",
-   "image": "https://m.media-amazon.com/images/I/51ohd+ed0mL._AC_UF1000,1000_QL80_.jpg",
-          "brand": "Revlon",
-          "stock": 300,
-          "specifications": {
-              "material": "Ceramic",
-              "features": [
-                  "Hair dryer",
-                  "Volumizer"
-              ]
-          },
-          "is_prime": true,
-          "sources": 
-          {
-            "platform": "Flipkart"            }
-      },
-      {
-          "id": 30,
-          "name": "Sunsweet California Pitted Prunes",
-          "category": "Grocery & Gourmet Food",
-          "price": 14,
-          "currency": "USD",
-          "rating": 4.3,
-          "reviews": 350,
-          "description": "Delicious, nutrient-packed pitted prunes from California.",
-          "image": "https://m.media-amazon.com/images/I/91NnFy7TfeL.jpg",
-          "brand": "Sunsweet",
-          "stock": 500,
-          "specifications": {
-              "weight": "16 oz",
-              "features": [
-                  "Pitted",
-                  "Nutrient-packed"
-              ]
-          },
-          "is_prime": false,
-          "sources": 
-          {
-            "platform": "Blinkit"            }
-      }
-  ]
+    "products": [
+        {
+            "id": 1,
+            "name": "Apple iPhone 14 Pro Max",
+            "category": "Electronics",
+            "price": 92316,
+            "currency": "INR",
+            "rating": 4.8,
+            "reviews": 1200,
+            "description": "The latest iPhone with a 6.7-inch display and A16 Bionic chip.",
+            "image": "https://m.media-amazon.com/images/I/71yzJoE7WlL._AC_UF1000,1000_QL80_.jpg",
+            "brand": "Apple",
+            "stock": 100,
+            "specifications": {
+                "display": "6.7 inches",
+                "processor": "A16 Bionic",
+                "camera": "48 MP",
+                "battery": "4323 mAh"
+            },
+            "is_prime": true,
+            "sources": {
+                "platform": "Amazon"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Samsung Galaxy S22",
+            "category": "Electronics",
+            "price": 67116,
+            "currency": "INR",
+            "rating": 4.5,
+            "reviews": 800,
+            "description": "The Samsung Galaxy S22 with an AMOLED display and Snapdragon 8 Gen 1.",
+            "image": "https://m.media-amazon.com/images/I/71qZERyxy6L._AC_UF1000,1000_QL80_.jpg",
+            "brand": "Samsung",
+            "stock": 150,
+            "specifications": {
+                "display": "6.1 inches",
+                "processor": "Snapdragon 8 Gen 1",
+                "camera": "50 MP",
+                "battery": "3700 mAh"
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Flipkart"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Sony WH-1000XM5 Headphones",
+            "category": "Electronics",
+            "price": 29232,
+            "currency": "INR",
+            "rating": 4.7,
+            "reviews": 500,
+            "description": "Wireless noise-canceling headphones with premium sound quality.",
+            "image": "https://m.media-amazon.com/images/I/51aXvjzcukL._AC_UF1000,1000_QL80_.jpg",
+            "brand": "Sony",
+            "stock": 200,
+            "specifications": {
+                "battery_life": "30 hours",
+                "connectivity": "Bluetooth 5.0",
+                "weight": "250 grams"
+            },
+            "is_prime": true,
+            "sources": {
+                "platform": "Flipkart"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Nike Air Zoom Pegasus 39 Running Shoes",
+            "category": "Fashion",
+            "price": 10080,
+            "currency": "INR",
+            "rating": 4.3,
+            "reviews": 320,
+            "description": "Comfortable and durable running shoes designed for long-distance runners.",
+            "image": "https://m.media-amazon.com/images/I/515gk0lB+jL._SY675_.jpg",
+            "brand": "Nike",
+            "stock": 300,
+            "specifications": {
+                "material": "Mesh and rubber",
+                "weight": "290 grams",
+                "size_range": "7-14 UK"
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Amazon"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Apple MacBook Pro 13-inch",
+            "category": "Electronics",
+            "price": 120000,
+            "currency": "INR",
+            "rating": 4.6,
+            "reviews": 950,
+            "description": "Powerful 13-inch MacBook with Apple M2 chip and Retina display.",
+            "image": "https://m.media-amazon.com/images/I/711xdPNfEhL._AC_UY218_.jpg",
+            "brand": "Apple",
+            "stock": 75,
+            "specifications": {
+                "processor": "Apple M2",
+                "ram": "8 GB",
+                "storage": "256 GB SSD",
+                "display": "13.3 inches"
+            },
+            "is_prime": true,
+            "sources": {
+                "platform": "Walmart"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Dell XPS 13 Laptop",
+            "category": "Electronics",
+            "price": 92316,
+            "currency": "INR",
+            "rating": 4.5,
+            "reviews": 400,
+            "description": "High-performance laptop with Intel i7 processor and 16 GB RAM.",
+            "image": "https://m.media-amazon.com/images/I/61s1d1AhQwL._AC_UY218_.jpg",
+            "brand": "Dell",
+            "stock": 50,
+            "specifications": {
+                "processor": "Intel i7",
+                "ram": "16 GB",
+                "storage": "512 GB SSD",
+                "display": "13.3 inches"
+            },
+            "is_prime": true,
+            "sources": {
+                "platform": "Flipkart"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Samsung 55-inch QLED TV",
+            "category": "Electronics",
+            "price": 67116,
+            "currency": "INR",
+            "rating": 4.7,
+            "reviews": 320,
+            "description": "Stunning 4K QLED display with voice control and smart TV features.",
+            "image": "https://m.media-amazon.com/images/I/71oeLYE-BOL.jpg",
+            "brand": "Samsung",
+            "stock": 60,
+            "specifications": {
+                "screen_size": "55 inches",
+                "resolution": "4K",
+                "hdmi_ports": "4",
+                "smart_tv": true
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Walmart"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Sony PlayStation 5",
+            "category": "Electronics",
+            "price": 41916,
+            "currency": "INR",
+            "rating": 4.9,
+            "reviews": 2500,
+            "description": "Next-gen gaming console with lightning-fast load times and immersive gameplay.",
+            "image": "https://m.media-amazon.com/images/I/51ljnEaW0pL.jpg",
+            "brand": "Sony",
+            "stock": 100,
+            "specifications": {
+                "processor": "AMD Ryzen Zen 2",
+                "ram": "16 GB",
+                "storage": "825 GB SSD"
+            },
+            "is_prime": true,
+            "sources": {
+                "platform": "Blinkit"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Levi's 501 Original Fit Jeans",
+            "category": "Fashion",
+            "price": 4116,
+            "currency": "INR",
+            "rating": 4.5,
+            "reviews": 1000,
+            "description": "Classic straight-leg jeans with a button fly and durable denim fabric.",
+            "image": "https://images-cdn.ubuy.co.in/64dca4fc6456c616f92f9d4a-levi-s-men-s-501-original-fit-jeans.jpg",
+            "brand": "Levi's",
+            "stock": 150,
+            "specifications": {
+                "material": "Cotton",
+                "fit": "Straight",
+                "size_range": "30-40"
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Amazon"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Adidas Ultraboost 22 Running Shoes",
+            "category": "Fashion",
+            "price": 15120,
+            "currency": "INR",
+            "rating": 4.6,
+            "reviews": 500,
+            "description": "Comfortable running shoes with Boost cushioning and Primeknit upper.",
+            "image": "https://images-cdn.ubuy.co.in/66c0f6a750a9254fa57a1104-adidas-ultraboost-22-white-tintsky.jpg",
+            "brand": "Adidas",
+            "stock": 200,
+            "specifications": {
+                "material": "Primeknit",
+                "sole": "Rubber",
+                "weight": "310 grams"
+            },
+            "is_prime": true,
+            "sources": {
+                "platform": "Flipkart"
+            }
+        },
+        {
+            "id": 11,
+            "name": "Samsung Galaxy Watch 5",
+            "category": "Electronics",
+            "price": 23436,
+            "currency": "INR",
+            "rating": 4.4,
+            "reviews": 450,
+            "description": "Advanced smartwatch with health tracking, GPS, and heart rate monitor.",
+            "image": "https://m.media-amazon.com/images/I/613N2dwpPxL.jpg",
+            "brand": "Samsung",
+            "stock": 120,
+            "specifications": {
+                "display": "1.4 inches",
+                "battery_life": "48 hours",
+                "features": [
+                    "Health tracking",
+                    "GPS",
+                    "Heart rate monitor"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Walmart"
+            }
+        },
+        {
+            "id": 12,
+            "name": "LG 65-inch 4K UHD TV",
+            "category": "Electronics",
+            "price": 50316,
+            "currency": "INR",
+            "rating": 4.6,
+            "reviews": 600,
+            "description": "Stunning 4K UHD TV with immersive audio and webOS smart features.",
+            "image": "https://m.media-amazon.com/images/I/7174Gs+VYuL.jpg",
+            "brand": "LG",
+            "stock": 80,
+            "specifications": {
+                "screen_size": "65 inches",
+                "resolution": "4K UHD",
+                "hdmi_ports": "3",
+                "smart_tv": true
+            },
+            "is_prime": true,
+            "sources": {
+                "platform": "Amazon"
+            }
+        },
+        {
+            "id": 13,
+            "name": "Bose QuietComfort 45 Headphones",
+            "category": "Electronics",
+            "price": 27636,
+            "currency": "INR",
+            "rating": 4.7,
+            "reviews": 650,
+            "description": "Premium noise-canceling headphones with exceptional sound quality.",
+            "image": "https://m.media-amazon.com/images/I/51qfLURUtpL._AC_UF1000,1000_QL80_.jpg",
+            "brand": "Bose",
+            "stock": 100,
+            "specifications": {
+                "battery_life": "24 hours",
+                "connectivity": "Bluetooth 5.1",
+                "noise_cancellation": true
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Flipkart"
+            }
+        },
+        {
+            "id": 14,
+            "name": "Apple AirPods Pro 2nd Gen",
+            "category": "Electronics",
+            "price": 20916,
+            "currency": "INR",
+            "rating": 4.8,
+            "reviews": 1400,
+            "description": "Active noise cancellation with transparency mode and improved sound quality.",
+            "image": "https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_UF1000,1000_QL80_.jpg",
+            "brand": "Apple",
+            "stock": 200,
+            "specifications": {
+                "battery_life": "6 hours",
+                "connectivity": "Bluetooth 5.0",
+                "noise_cancellation": true
+            },
+            "is_prime": true,
+            "sources": {
+                "platform": "Amazon"
+            }
+        },
+        {
+            "id": 15,
+            "name": "Fitbit Charge 5 Fitness Tracker",
+            "category": "Electronics",
+            "price": 10836,
+            "currency": "INR",
+            "rating": 4.3,
+            "reviews": 800,
+            "description": "Advanced fitness tracker with built-in GPS, heart rate monitoring, and sleep tracking.",
+            "image": "https://m.media-amazon.com/images/I/51YjNQZ0RDL.jpg",
+            "brand": "Fitbit",
+            "stock": 250,
+            "specifications": {
+                "battery_life": "7 days",
+                "features": [
+                    "GPS",
+                    "Heart rate monitoring",
+                    "Sleep tracking"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Walmart"
+            }
+        },
+        {
+            "id": 16,
+            "name": "HP Spectre x360 Laptop",
+            "category": "Electronics",
+            "price": 125916,
+            "currency": "INR",
+            "rating": 4.7,
+            "reviews": 450,
+            "description": "Convertible laptop with Intel i7 processor, 16 GB RAM, and 512 GB SSD.",
+            "image": "https://m.media-amazon.com/images/I/71AgpORJXXL.jpg",
+            "brand": "HP",
+            "stock": 100,
+            "specifications": {
+                "processor": "Intel i7",
+                "ram": "16 GB",
+                "storage": "512 GB SSD",
+                "display": "13.3 inches"
+            },
+            "is_prime": true,
+            "sources": {
+                "platform": "Walmart"
+            }
+        },
+        {
+            "id": 17,
+            "name": "Canon EOS Rebel T7 DSLR Camera",
+            "category": "Electronics",
+            "price": 41916,
+            "currency": "INR",
+            "rating": 4.6,
+            "reviews": 900,
+            "description": "DSLR camera with 24.1 MP resolution and 1080p Full HD video recording.",
+            "image": "https://m.media-amazon.com/images/I/813wMguZa1L._AC_UF350,350_QL80_.jpg",
+            "brand": "Canon",
+            "stock": 120,
+            "specifications": {
+                "megapixels": "24.1 MP",
+                "video_resolution": "1080p Full HD",
+                "screen_size": "3 inches"
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Walmart"
+            }
+        },
+        {
+            "id": 18,
+            "name": "Sennheiser Momentum True Wireless 3",
+            "category": "Electronics",
+            "price": 20916,
+            "currency": "INR",
+            "rating": 4.7,
+            "reviews": 750,
+            "description": "Premium wireless earbuds with active noise cancellation and deep bass.",
+            "image": "https://m.media-amazon.com/images/I/61FWJyKS9aL.jpg",
+            "brand": "Sennheiser",
+            "stock": 200,
+            "specifications": {
+                "battery_life": "7 hours",
+                "connectivity": "Bluetooth 5.2",
+                "noise_cancellation": true
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Flipkart"
+            }
+        },
+        {
+            "id": 19,
+            "name": "Nike Air Max 270 React",
+            "category": "Fashion",
+            "price": 12600,
+            "currency": "INR",
+            "rating": 4.5,
+            "reviews": 600,
+            "description": "Stylish sneakers with responsive cushioning and durable outsole.",
+            "image": "https://images-cdn.ubuy.co.in/64a4e86565ab3d1f024ad5d0-nike-air-max-270-react-wtr-mens-sneakers.jpg",
+            "brand": "Nike",
+            "stock": 180,
+            "specifications": {
+                "material": "Synthetic",
+                "sole": "Rubber",
+                "weight": "320 grams"
+            },
+            "is_prime": true,
+            "sources": {
+                "platform": "Amazon"
+            }
+        },
+        {
+            "id": 20,
+            "name": "TCL 6-Series 65-inch 4K TV",
+            "category": "Electronics",
+            "price": 67116,
+            "currency": "INR",
+            "rating": 4.8,
+            "reviews": 400,
+            "description": "QLED TV with Dolby Vision and Roku built-in for smart entertainment.",
+            "image": "https://m.media-amazon.com/images/I/81JPZOa8HkL._AC_UF1000,1000_QL80_.jpg",
+            "brand": "TCL",
+            "stock": 90,
+            "specifications": {
+                "screen_size": "65 inches",
+                "resolution": "4K",
+                "hdmi_ports": "4",
+                "smart_tv": true
+            },
+            "is_prime": true,
+            "sources": {
+                "platform": "Walmart"
+            }
+        },
+        {
+            "id": 21,
+            "name": "Keurig K-Elite Coffee Maker",
+            "category": "Home Appliances",
+            "price": 12516,
+            "currency": "INR",
+            "rating": 4.7,
+            "reviews": 650,
+            "description": "Single-serve K-Cup coffee maker with strong brew and iced coffee settings.",
+            "image": "https://m.media-amazon.com/images/I/71ihRUUFvkL._AC_UF894,1000_QL80_.jpg",
+            "brand": "Keurig",
+            "stock": 250,
+            "specifications": {
+                "brew_size": "6, 8, 10, 12 oz",
+                "features": [
+                    "Iced coffee",
+                    "Strong brew",
+                    "Auto off"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Zepto"
+            }
+        },
+        {
+            "id": 22,
+            "name": "iRobot Roomba i7+ Robot Vacuum",
+            "category": "Home Appliances",
+            "price": 67116,
+            "currency": "INR",
+            "rating": 4.8,
+            "reviews": 700,
+            "description": "Robot vacuum with smart mapping and self-emptying dustbin.",
+            "image": "https://m.media-amazon.com/images/I/51mk1dEtqNL._AC_UF894,1000_QL80_.jpg",
+            "brand": "iRobot",
+            "stock": 100,
+            "specifications": {
+                "battery_life": "90 minutes",
+                "features": [
+                    "Smart mapping",
+                    "Self-emptying"
+                ]
+            },
+            "is_prime": true,
+            "sources": {
+                "platform": "Walmart"
+            }
+        },
+        {
+            "id": 23,
+            "name": "Dyson V11 Torque Drive Cordless Vacuum",
+            "category": "Home Appliances",
+            "price": 50316,
+            "currency": "INR",
+            "rating": 4.7,
+            "reviews": 850,
+            "description": "Powerful cordless vacuum with advanced filtration and longer runtime.",
+            "image": "https://images-eu.ssl-images-amazon.com/images/I/61-K1LeoE5L._AC_UL600_SR600,600_.jpg",
+            "brand": "Dyson",
+            "stock": 120,
+            "specifications": {
+                "battery_life": "60 minutes",
+                "features": [
+                    "Advanced filtration",
+                    "Multiple attachments"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Walmart"
+            }
+        },
+        {
+            "id": 24,
+            "name": "KitchenAid Artisan Stand Mixer",
+            "category": "Home Appliances",
+            "price": 31836,
+            "currency": "INR",
+            "rating": 4.8,
+            "reviews": 500,
+            "description": "Stand mixer with 10-speed settings and 5-quart capacity.",
+            "image": "https://m.media-amazon.com/images/I/51ZjhSjQQPL._AC_UF894,1000_QL80_.jpg",
+            "brand": "KitchenAid",
+            "stock": 60,
+            "specifications": {
+                "capacity": "5 quarts",
+                "speed_settings": "10",
+                "material": "Die-cast metal"
+            },
+            "is_prime": true,
+            "sources": {
+                "platform": "Zepto"
+            }
+        },
+        {
+            "id": 25,
+            "name": "Nest Learning Thermostat",
+            "category": "Home Appliances",
+            "price": 20916,
+            "currency": "INR",
+            "rating": 4.6,
+            "reviews": 600,
+            "description": "Smart thermostat with energy-saving features and remote control.",
+            "image": "https://m.media-amazon.com/images/I/71ubizMsdKL._AC_UF350,350_QL80_.jpg",
+            "brand": "Google",
+            "stock": 130,
+            "specifications": {
+                "battery_life": "3 hours",
+                "features": [
+                    "Energy-saving",
+                    "Remote control"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Zepto"
+            }
+        },
+        {
+            "id": 26,
+            "name": "Philips Sonicare DiamondClean Smart Toothbrush",
+            "category": "Health & Personal Care",
+            "price": 25116,
+            "currency": "INR",
+            "rating": 4.8,
+            "reviews": 700,
+            "description": "Premium electric toothbrush with smart sensors and multiple cleaning modes.",
+            "image": "https://m.media-amazon.com/images/I/81SytLhjjIL.jpg",
+            "brand": "Philips",
+            "stock": 150,
+            "specifications": {
+                "battery_life": "2 weeks",
+                "features": [
+                    "Smart sensors",
+                    "Multiple cleaning modes"
+                ]
+            },
+            "is_prime": true,
+            "sources": {
+                "platform": "Blinkit"
+            }
+        },
+        {
+            "id": 27,
+            "name": "Oral-B Genius X Electric Toothbrush",
+            "category": "Health & Personal Care",
+            "price": 20916,
+            "currency": "INR",
+            "rating": 4.7,
+            "reviews": 800,
+            "description": "Smart electric toothbrush with real-time feedback and position detection.",
+            "image": "https://m.media-amazon.com/images/I/81SdH-AwcSL.jpg",
+            "brand": "Oral-B",
+            "stock": 180,
+            "specifications": {
+                "battery_life": "10 days",
+                "features": [
+                    "Real-time feedback",
+                    "Position detection"
+                ]
+            },
+            "is_prime": true,
+            "sources": {
+                "platform": "Blinkit"
+            }
+        },
+        {
+            "id": 28,
+            "name": "Crest 3D Whitestrips Glamorous White Teeth Whitening Kit",
+            "category": "Health & Personal Care",
+            "price": 3696,
+            "currency": "INR",
+            "rating": 4.5,
+            "reviews": 400,
+            "description": "Whitening kit with advanced seal technology for brighter and whiter teeth.",
+            "image": "https://images-cdn.ubuy.qa/64f40dcd81e23317591f7c63-crest-3d-whitestrips-glamorous-white.jpg",
+            "brand": "Crest",
+            "stock": 250,
+            "specifications": {
+                "quantity": "20 strips",
+                "features": [
+                    "Advanced seal technology",
+                    "Whiter teeth"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Zepto"
+            }
+        },
+        {
+            "id": 29,
+            "name": "Revlon One-Step Hair Dryer & Volumizer",
+            "category": "Health & Personal Care",
+            "price": 4956,
+            "currency": "INR",
+            "rating": 4.6,
+            "reviews": 1200,
+            "description": "Hair dryer and volumizer in one, with ceramic coating for smoother styling.",
+            "image": "https://m.media-amazon.com/images/I/51ohd+ed0mL._AC_UF1000,1000_QL80_.jpg",
+            "brand": "Revlon",
+            "stock": 300,
+            "specifications": {
+                "material": "Ceramic",
+                "features": [
+                    "Hair dryer",
+                    "Volumizer"
+                ]
+            },
+            "is_prime": true,
+            "sources": {
+                "platform": "Walmart"
+            }
+        },
+        {
+            "id": 30,
+            "name": "Sunsweet California Pitted Prunes",
+            "category": "Grocery & Gourmet Food",
+            "price": 1260,
+            "currency": "INR",
+            "rating": 4.3,
+            "reviews": 350,
+            "description": "Delicious, nutrient-packed pitted prunes from California.",
+            "image": "https://m.media-amazon.com/images/I/91NnFy7TfeL.jpg",
+            "brand": "Sunsweet",
+            "stock": 500,
+            "specifications": {
+                "weight": "16 oz",
+                "features": [
+                    "Pitted",
+                    "Nutrient-packed"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Blinkit"
+            }
+        },
+        {
+            "id": 31,
+            "name ": "Fastrack limitless Glide Advanced",
+            "category": "Electronics",
+            "price": 1299,
+            "currency": "INR",
+            "rating": 3.9,
+            "reviews": 260,
+            "description": "The Fastrack Limitless Glide Smartwatch combines an HD display, offering a  stylish and functional wearable for active lifestyles..",
+            "image": "https://m.media-amazon.com/images/I/61rbYFj7DgL._AC_UF1000,1000_QL80_.jpg",
+            "brand": "Titan",
+            "stock": 350,
+            "specifications": {
+                "Battery Capacity": "280 Mah",
+                "Wattage": "20 Watts",
+                "features": [
+                    "Bluetooth Calling",
+                    "85+ Sports Mode",
+                    "IP67 Water Resistant"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Amazon"
+            }
+        },
+        {
+            "id": 32,
+            "name ": "CP Plus Full HD WiFi Camera",
+            "category": "Electronics",
+            "price": 1100,
+            "currency": "INR",
+            "rating": 3.4,
+            "reviews": 354,
+            "description": "The CP Plus 1080P Full HD Smart WiFi Camera (CP-E25A) is a versatile security device with 360° pan and tilt, motion detection, night vision. ",
+            "image": "https://m.media-amazon.com/images/I/51gmjKtWUGL._AC_UF1000,1000_QL80_.jpg",
+            "brand": "CP Plus",
+            "stock": 200,
+            "specifications": {
+                "Connectivity": "Wireless",
+                "In-Built Storage": "128 Gb",
+                "Resolution ": "1080p",
+                "features": [
+                    "Night Vision",
+                    "Motion Alert",
+                    "Alexa Support"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Flipkart"
+            }
+        },
+        {
+            "id": 33,
+            "name ": "Samsung Galaxy Tab S9 FE",
+            "category": "Electronics",
+            "price": 32999,
+            "currency": "INR",
+            "rating": 4.3,
+            "reviews": 496,
+            "description": "The Samsung Galaxy Tab S9 FE is a 10.9-inch delivers exceptional performance Wi-Fi connectivity, and an in-box S Pen for productivity and creativity.",
+            "image": "https://m.media-amazon.com/images/I/61gVQJ5Yy0L._AC_UF1000,1000_QL80_.jpg",
+            "brand": "SAMSUNG",
+            "stock": 150,
+            "specifications": {
+                "RAM": "6 Gb",
+                "ROM ": "128 Gb",
+                "Display Size": "10.9 inch",
+                "Processor": "Exynos 1380 ",
+                "Battery": "8000 Mah",
+                "features": [
+                    "IP 68 Water Resistant",
+                    "AI Features",
+                    "S Pen Support"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Walmart"
+            }
+        },
+        {
+            "id": 34,
+            "name ": "JBL Cinema Sound Bar",
+            "category": "Electronics",
+            "price": 26680,
+            "currency": "INR",
+            "rating": 3.4,
+            "reviews": 379,
+            "description": "The JBL Cinema is a powerful Dolby Atmos soundbar with immersive audio, deep bass, and superior voice clarity and optical connectivity..",
+            "image": "https://m.media-amazon.com/images/I/612aAai0KkL.jpg",
+            "brand": "Harman International",
+            "stock": 450,
+            "specifications": {
+                "Sound Output": "440 Watts",
+                "Weight ": "10400 g",
+                "Subwoofer Connectivity": "Wireless",
+                "features": [
+                    "3.1 Dolby Atmos",
+                    "Dedicated center channel",
+                    "Easy Installation"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Amazon"
+            }
+        },
+        {
+            "id": 35,
+            "name ": "ASUS TUF Gaming A15",
+            "category": "Electronics",
+            "price": 59999,
+            "currency": "INR",
+            "rating": 4,
+            "reviews": 354,
+            "description": "The ASUS TUF Gaming A15 is a 15.6 gaming laptop delivers great performance for productivity and gaming tasks.",
+            "image": "https://m.media-amazon.com/images/I/71xHe8KTh9L.jpg",
+            "brand": "ASUS",
+            "stock": 100,
+            "specifications": {
+                "RAM": "16 Gb",
+                "Storage ": "512 Gb SSD",
+                "Display Size": "15.6 inch",
+                "Processor": "Ryzen 5 7535HS",
+                "GPU": "Nvidia RTX 3050",
+                "features": [
+                    "RGB Keyboard",
+                    "100 Watt TGP",
+                    "165 Hz Refresh Rate"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Walmart"
+            }
+        },
+        {
+            "id": 36,
+            "name ": "MSI Katana 15",
+            "category": "Electronics",
+            "price": 62.990,
+            "currency": "INR",
+            "rating": 4.6,
+            "reviews": 150,
+            "description": "The MSI KATANA 15 is a gaming laptop delivers great performance for productivity and gaming tasks.",
+            "image": "https://m.media-amazon.com/images/I/617m30IvETL._AC_UF1000,1000_QL80_.jpg",
+            "brand": "MSI",
+            "stock": 106,
+            "specifications": {
+                "RAM": "16 Gb",
+                "Storage ": "512 Gb SSD",
+                "Display Size": "40cm",
+                "Processor": "Intel core i5-12450H",
+                "GPU": "Nvidia RTX 3050 6gb",
+                "features": [
+                    "MS-OFFICE included",
+                    "115 Watt TGP",
+                    "165 Hz Refresh Rate"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Amazon"
+            }
+        },
+        {
+            "id": 37,
+            "name": "Happilo Dried Almonds",
+            "category": "Grocery & Gourmet Food",
+            "price": 506,
+            "currency": "INR",
+            "rating": 4.2,
+            "reviews": 3500,
+            "description": "Delicious, nutrient-packed Almonds from California.",
+            "image": "https://m.media-amazon.com/images/I/71yRP4Kr6YL.jpg",
+            "brand": "Happilo",
+            "stock": 467,
+            "specifications": {
+                "Protein": "6 g",
+                "Carbohydrates": "5 g",
+                "features": [
+                    "Gluten Free",
+                    "Zero Transfat ",
+                    "Zero Cholestrol "
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Zepto"
+            }
+        },
+        {
+            "id": 38,
+            "name": "NESCAFE Gold",
+            "category": "Grocery & Gourmet Food",
+            "price": 945,
+            "currency": "INR",
+            "rating": 4.5,
+            "reviews": 697,
+            "description": "NESCAFE brings you the premium choice for your special cup of coffee every day, rising above all to the s set by coffee connoisseurs.",
+            "image": "https://m.media-amazon.com/images/I/61Qtl9L-w1L.jpg",
+            "brand": "NESTLE",
+            "stock": 489,
+            "specifications": {
+                "Quantity": "185 g",
+                "Form ": "Granule",
+                "features": [
+                    "Arabic Beans",
+                    "Robusta Aromatic"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Blinkit"
+            }
+        },
+        {
+            "id": 39,
+            "name": "MYFITNESS Chocolate Peanut Butter",
+            "category": "Grocery & Gourmet Food",
+            "price": 512,
+            "currency": "INR",
+            "rating": 4.4,
+            "reviews": 319,
+            "description": "My Fitness Chocolate Peanut Butter is a delectable blend of 100% roasted peanuts and Belgian dark chocolate, making it the perfect snack for everyone.",
+            "image": "https://m.media-amazon.com/images/I/61LCIwBlT4L._AC_UF1000,1000_QL80_.jpg",
+            "brand": "MYFITNESS",
+            "stock": 516,
+            "specifications": {
+                "Flavor": "Smooth",
+                "Diet Type": "Vegetarian",
+                "Item Weight": "1250 g",
+                "features": [
+                    "NO ARTIFICIAL ADDITIVES",
+                    "GLUTEN-FREE & VEGAN-FRIENDLY"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Blinkit"
+            }
+        },
+        {
+            "id": 40,
+            "name": "Hershey's Cocoa Powder",
+            "category": "Grocery & Gourmet Food",
+            "price": 300,
+            "currency": "INR",
+            "rating": 4.4,
+            "reviews": 234,
+            "description": "Hershey's Cocoa is 100 percent Natural and Unsweetened. It contains antioxidants also found in tea and certain fruits. Enjoy delicious desserts and baking treats with Hershey's Cocoa.",
+            "image": "https://m.media-amazon.com/images/I/617IwDjcJML.jpg",
+            "brand": "HERSHEY’S",
+            "stock": 700,
+            "specifications": {
+                "Flavor": "Cocoa",
+                "Diet Type": "Plant based",
+                "Item Weight": "225 g",
+                "features": [
+                    "Natural Unsweetened ",
+                    "Rich in anti-oxidants and dietary fibre"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Zepto"
+            }
+        },
+        {
+            "id": 41,
+            "name": "Cadbury Bournville Cranberry Dark Chocolate",
+            "category": "Grocery & Gourmet Food",
+            "price": 536,
+            "currency": "INR",
+            "rating": 4.4,
+            "reviews": 1493,
+            "description": "Cadbury Bournville is a premium dark chocolate that delivers an intense, fine, and indulgent experience to lovers of dark chocolate",
+            "image": "https://m.media-amazon.com/images/I/61mQDFK0CNL._AC_UF1000,1000_QL80_.jpg",
+            "brand": "CADBURY",
+            "stock": 1546,
+            "specifications": {
+                "Energy": "537 Kcal",
+                "Protein": "5 g",
+                "Carbohydrates t": "58.3 g",
+                "features": [
+                    "Natural Unsweetened ",
+                    "Finest Cocoa "
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Blinkit"
+            }
+        },
+        {
+            "id": 42,
+            "name": "Tata Himalayan Rock Pink Salt",
+            "category": "Grocery & Gourmet Food",
+            "price": 104,
+            "currency": "INR",
+            "rating": 4.5,
+            "reviews": 1293,
+            "description": "Tata Salt Himalayan Rock Salt is sourced directly from the pristine mountain ranges and brought to your kitchen ",
+            "image": "https://m.media-amazon.com/images/I/61T0qHpR6FL.jpg",
+            "brand": "TATA",
+            "stock": 156,
+            "specifications": {
+                "Weight": "1kg",
+                "Ingredients ": "Potassium Iodate ",
+                "Form": "Powder ",
+                "features": [
+                    "Natural Minerals ",
+                    "Authentic Rock Salt "
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Zepto"
+            }
+        },
+        {
+            "id": 43,
+            "name": "Quaker Oats",
+            "category": "Grocery & Gourmet Food",
+            "price": 347,
+            "currency": "INR",
+            "rating": 4.5,
+            "reviews": 4040,
+            "description": "Quaker oats delivers bowlful of nutritious & tasty Quaker. These 100% Natural Wholegrain Oats have complex carbohydrates that breaks down slowly to provide energy that lasts",
+            "image": "https://m.media-amazon.com/images/I/51SuC8EKIUL._AC_.jpg",
+            "brand": "Quaker",
+            "stock": 1050,
+            "specifications": {
+                "Weight": "2kg",
+                "Fibre ": "3 g ",
+                "Flavor": "Plain ",
+                "features": [
+                    "100% Natural Wholegrain",
+                    "Nutritious Breakfast Cereals",
+                    "Easy to Cook"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Zepto"
+            }
+        },
+        {
+            "id": 44,
+            "name": "Tropicana Orange Delight",
+            "category": "Grocery & Gourmet Food",
+            "price": 120,
+            "currency": "INR",
+            "rating": 4.1,
+            "reviews": 527,
+            "description": "Enjoy the refreshing and delicious taste of oranges! A special 6-layer protection gives you the goodness of tasty, ready to serve fruit beverage in every glass of Tropicana.",
+            "image": "https://m.media-amazon.com/images/I/71DYFTXV0xL.jpg",
+            "brand": "Tropicana",
+            "stock": 150,
+            "specifications": {
+                "Quantity": "1L",
+                "Form ": "Liquid ",
+                "Flavor": "Orange ",
+                "features": [
+                    "100% Natural Oranges",
+                    "No added Sweetener",
+                    "6 Layer Anti-Bacterial Packaging"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Blinkit"
+            }
+        },
+        {
+            "id": 45,
+            "name": "Betty Crocker Complete Classic Pancake ",
+            "category": "Grocery & Gourmet Food",
+            "price": 442,
+            "currency": "INR",
+            "rating": 4.4,
+            "reviews": 2290,
+            "description": "The Classic Flavour Betty Crocker Complete Classic Pancake Mix is a delicious and easy to make snack option. A sure success with kids, these pancakes will be a refreshing change to their usual snacks.",
+            "image": "https://m.media-amazon.com/images/I/71X+spg1nzL.jpg",
+            "brand": "Betty Crocker",
+            "stock": 978,
+            "specifications": {
+                "Weight": "1Kg",
+                "Diet Type": "Vegetarian",
+                "Flavor": "Classic ",
+                "features": [
+                    "No Preservatives Used",
+                    "No added Sweetener",
+                    "6 Layer Anti-Bacterial Packaging"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Zepto"
+            }
+        },
+        {
+            "id": 46,
+            "name": "PUMA men textured regular sneakers",
+            "category": "Fashion",
+            "price": 3599,
+            "currency": "INR",
+            "rating": 4,
+            "reviews": 116,
+            "description": "Comfortable and durable running shoes designed for long-distance runners.",
+            "image": "https://m.media-amazon.com/images/I/61I3j9Zhf+L._AC_UY1000_.jpg",
+            "brand": "PUMA",
+            "stock": 356,
+            "specifications": {
+                "upper material": "Textile and synthetic Mix",
+                "Outsole material": "Rubber",
+                "size_range": "6-11 UK",
+                "features": [
+                    "Soft Foam",
+                    "Cushioned Footbed",
+                    "Dust Resistant "
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Amazon"
+            }
+        },
+        {
+            "id": 47,
+            "name": "FTIMILD Men's Mountain Snow Waterproof Ski Jacket",
+            "category": "Fashion",
+            "price": 2500,
+            "currency": "INR",
+            "rating": 4.5,
+            "reviews": 232,
+            "description": "Comfortable and warm jacket designed for trekking.",
+            "image": "https://m.media-amazon.com/images/I/61o-TapbTTL._AC_UY1100_.jpg",
+            "brand": " FTIMILD ",
+            "stock": 476,
+            "specifications": {
+                "Style": "Wrap Coat",
+                "Fit size": "Regular",
+                "Pattern ": "Solid",
+                "features": [
+                    "Wind Proof",
+                    "Quick Drying",
+                    "Durable "
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Flipkart"
+            }
+        },
+        {
+            "id": 48,
+            "name": " LEVI’S Men's Checkered Spread Collar Shirt",
+            "category": "Fashion",
+            "price": 3039,
+            "currency": "INR",
+            "rating": 4.3,
+            "reviews": 132,
+            "description": "Sometimes, only a classic will do. This blue checked pattern and the comfortable slim fit add an edge to your casual wardrobe.",
+            "image": "https://levi.in/cdn/shop/files/A78040030_01_Front.jpg?v=1726819755",
+            "brand": " LEVI’S ",
+            "stock": 321,
+            "specifications": {
+                "Collar Type": "spread Collar",
+                "Fit ": "slim fit",
+                "Patter": "Checked",
+                "features": [
+                    "100% cotton(Bci)",
+                    "Quick Drying",
+                    "Comfortable "
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Flipkart"
+            }
+        },
+        {
+            "id": 49,
+            "name": " Woodland Men's Leather Sneaker",
+            "category": "Fashion",
+            "price": 3036,
+            "currency": "INR",
+            "rating": 3.8,
+            "reviews": 3413,
+            "description": "Make a dazzling fashion statement with these Woodland casual Shoes . It features a leather upper that provides comfort and enhances the overall look.",
+            "image": "https://m.media-amazon.com/images/I/81afTBtatdL._AC_UY1000_.jpg",
+            "brand": "Woodland ",
+            "stock": 450,
+            "specifications": {
+                "Material Type ": "Leather",
+                "Sole Material ": "Thermoplastic Elastomers",
+                "Heel Type": "Flat",
+                "features": [
+                    "dust and water resistant",
+                    "Quick Drying",
+                    "Comfortable "
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Amazon"
+            }
+        },
+        {
+            "id": 50,
+            "name": " UNIQLO Ultra Light Down Vest",
+            "category": "Fashion",
+            "price": 2990,
+            "currency": "INR",
+            "rating": 4.2,
+            "reviews": 413,
+            "description": "Make a dazzling fashion statement with these UNIQLO vest . It features a comfortable upper that provides comfort and enhances the overall look.",
+            "image": "  https://image.uniqlo.com/UQ/ST3/in/imagesgoods/472294/item/ingoods_09_472294_3x4.jpg?width=369",
+            "brand": "UNIQLO ",
+            "stock": 780,
+            "specifications": {
+                "Material Type ": "Polyamide Filling",
+                "Fit ": "Regular",
+                "Color": "Light Gray",
+                "features": [
+                    "dust and water resistant",
+                    "Anti-static lining",
+                    "Convenient pocketable design "
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Flipkart"
+            }
+        },
+        {
+            "id": 51,
+            "name": " Orient Electric Areva Portable Room Heater",
+            "category": " Home Appliances ",
+            "price": 1449,
+            "currency": "INR",
+            "rating": 4,
+            "reviews": 502,
+            "description": " Designed for a two-way, space-efficient placement: Mount this room heater horizontally for a blow of hot air in your direction while sitting, or vertically to direct the warm air precisely at your feet level..",
+            "image": "https://m.media-amazon.com/images/I/71QfC+NELFL.jpg",
+            "brand": "ORIENT ELECTRIC",
+            "stock": 56,
+            "specifications": {
+                "Power Rating": "2000 Watt",
+                "Form Factor ": " Pedestal ",
+                "Color": "White",
+                "features": [
+                    "Fast Heating",
+                    " 100% Copper motor for a long-lasting performance ",
+                    " Two adjustable heat Profiles"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Zepto"
+            }
+        },
+        {
+            "id": 52,
+            "name": " Pigeon by Stove kraft Amaze Plus Electric Kettle",
+            "category": " Home Appliances ",
+            "price": 549,
+            "currency": "INR",
+            "rating": 3.9,
+            "reviews": 1602,
+            "description": " The Pigeon Amaze Plus Electric Kettle features a stainless steel body with a 1.5-litre capacity, designed for quickly boiling water, tea, coffee, instant noodles, soups, and more.",
+            "image": "https://m.media-amazon.com/images/I/51DGcy8eBCL.jpg",
+            "brand": "STOVE KRAFT",
+            "stock": 456,
+            "specifications": {
+                "Capacity": "1.5 L",
+                "Body ": "Stainless Steel Body ",
+                "Color": "Black and Silver",
+                "features": [
+                    "Fast Boil",
+                    "Cordless Pouring ",
+                    " Water Level Indicator"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Amazon"
+            }
+        },
+        {
+            "id": 53,
+            "name": " Whirlpool 7 Kg 5 Star Royal Fully-Automatic Top Loading Washing Machine",
+            "category": " Home Appliances ",
+            "price": 14590,
+            "currency": "INR",
+            "rating": 4.0,
+            "reviews": 1133,
+            "description": " The Whirlpool Washing Machine features Hard Water Wash, ZPF Technology for low-pressure water filling, and energy-efficient performance. ",
+            "image": "https://m.media-amazon.com/images/I/61lxAOttcYL._AC_UF1000,1000_QL80_.jpg",
+            "brand": "WHIRLPOOL",
+            "stock": 690,
+            "specifications": {
+                "Capacity": "7kg",
+                "Energy star rating ": "5 star",
+                "Motor": "740 RPM",
+                "features": [
+                    "ZPF Technology",
+                    " Hard water wash",
+                    "Water Level Indicator"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Walmart"
+            }
+        },
+        {
+            "id": 54,
+            "name": " IFB 24 L Solo Microwave Oven",
+            "category": " Home Appliances ",
+            "price": 6890,
+            "currency": "INR",
+            "rating": 4.0,
+            "reviews": 1133,
+            "description": " The IFB Oven compact microwave offers quick and efficient cooking with multiple power settings, a sleek design, and easy-to-use controls, perfect for any kitchen.. ",
+            "image": "https://m.media-amazon.com/images/I/61hD-fVYjcL.jpg",
+            "brand": "IFB",
+            "stock": 90,
+            "specifications": {
+                "Capacity": "24 L",
+                "Heating Method ": "Radiant",
+                "color": "Black",
+                "features": [
+                    "Control Touch key pad",
+                    " 69 Auto cooking method",
+                    "5 levels of safety"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Walmart"
+            }
+        },
+        {
+            "id": 55,
+            "name": " Havells Capture 500 Watts 3 Jar Mixer Grinder",
+            "category": " Home Appliances ",
+            "price": 2099,
+            "currency": "INR",
+            "rating": 4.1,
+            "reviews": 695,
+            "description": " This powerful mixer grinder features multiple jars and high-speed motors, making it ideal for blending, grinding, and mixing ingredients with ease and efficiency",
+            "image": "https://m.media-amazon.com/images/I/61IoedLkkjL._AC_UF894,1000_QL80_.jpg",
+            "brand": "Havells",
+            "stock": 190,
+            "specifications": {
+                "Capacity": "1.5 L",
+                "Motor ": "21000 RPM",
+                "Wattage": "500 watts",
+                "features": [
+                    "Overload Protection",
+                    " Overheat Protection",
+                    "Rust Resistant"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Blinkit"
+            }
+        },
+        {
+            "id": 56,
+            "name": " Wellcore - Pure Micronised Creatine Monohydrate",
+            "category": "Health & Personal Care ",
+            "price": 539,
+            "currency": "INR",
+            "rating": 4.3,
+            "reviews": 522,
+            "description": " Every scoop of Wellcore Creatine Monohydrate delivers the fuel for your physical performance. It helps you train harder, lift heavier, and recover faster.",
+            "image": "https://m.media-amazon.com/images/I/71wLbVnsgSL.jpg",
+            "brand": "Wellversed ",
+            "stock": 600,
+            "specifications": {
+                "Weight": "122 g",
+                "Primary Supplement Type": "Creatine",
+                "Item Form": "Powder",
+                "Flavour": "Fruit Fusion",
+                "features": [
+                    "Premium Quality",
+                    " Certified by Trustified"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Zepto"
+            }
+        },
+        {
+            "id": 57,
+            "name": " Philips Battery Powered Skin Protect Beard Trimmer for Men",
+            "category": "Health & Personal Care ",
+            "price": 696,
+            "currency": "INR",
+            "rating": 4,
+            "reviews": 791,
+            "description": " Get a skin friendly trim with the help of Skin Protect Comb. It gives you a comfortable clean look while providing extra skin protection. The comb guides the skin away from the blades for a close, smooth trim. 2.  Get a perfect but protective trim with self-sharpening steel blades.",
+            "image": "https://m.media-amazon.com/images/I/61VRH0jQrRL._AC_UF1000,1000_QL80_.jpg",
+            "brand": "Philips ",
+            "stock": 342,
+            "specifications": {
+                "Weight": "200 g",
+                "Material": "Stainless steel ",
+                "power source": "Battery powered",
+                "Color": "Blue",
+                "features": [
+                    "Cordless ",
+                    " Rechargeable "
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Blinkit"
+            }
+        },
+        {
+            "id": 58,
+            "name": " Dr. Morepen BG-03 Gluco One Glucometer",
+            "category": "Health & Personal Care ",
+            "price": 710,
+            "currency": "INR",
+            "rating": 4.1,
+            "reviews": 439,
+            "description": " Dr. Morepen Blood Glucose Monitor Model BG 03 is an Auto Code Monitor that requires a very tiny blood sample (0.5ul only) and shows the test result in just 5 seconds. ",
+            "image": "https://m.media-amazon.com/images/I/71xExwFHEZL._AC_UF1000,1000_QL80_.jpg",
+            "brand": " Dr. Morepen ",
+            "stock": 389,
+            "specifications": {
+                "Weight": "200 g",
+                "Material": "Stainless steel ",
+                "power source": "Lithium Battery",
+                "Color": "White",
+                "features": [
+                    " Auto Code Monitor ",
+                    " Only 0.5µL blood required",
+                    " Result in 5 Seconds "
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Flipkart"
+            }
+        },
+        {
+            "id": 59,
+            "name": " Beardo Godfather Perfume for Men",
+            "category": "Health & Personal Care ",
+            "price": 552,
+            "currency": "INR",
+            "rating": 3.8,
+            "reviews": 1280,
+            "description": " Be prepared to captivate the senses of one and all with the powerful enigma of Beardo Godfather EDP.",
+            "image": "https://m.media-amazon.com/images/I/41Ds9rnPpqL._AC_UF1000,1000_QL80_.jpg",
+            "brand": " Beardo ",
+            "stock": 776,
+            "specifications": {
+                "Capacity": "100 ml",
+                "Item Form": "Liquid ",
+                "Scent": "Spicy",
+                "features": [
+                    "Long Lasting ",
+                    " Aromatic ",
+                    " Zero Alcohol"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Blinkit"
+            }
+        },
+        {
+            "id": 60,
+            "name": " Cetaphil Dam Daily Advance Ultra Hydrating Lotion",
+            "category": "Health & Personal Care ",
+            "price": 221,
+            "currency": "INR",
+            "rating": 4.2,
+            "reviews": 1075,
+            "description": " Cetaphil DAM Daily Advance Ultra Hydrating Lotion contains a unique combination of 5 key ingredients that protects dry skin and enhances hydration. It is clinically proven to provide 48 hours of skin comfort after a single application.",
+            "image": "https://m.media-amazon.com/images/I/51U3KlUV8HL._AC_UF1000,1000_QL80_.jpg",
+            "brand": " Cetaphil ",
+            "stock": 908,
+            "specifications": {
+                "Weight": "30 g",
+                "Skin Type": "Sensitive and dry ",
+                "Item Form": "Cream",
+                "features": [
+                    "Non Greasy  ",
+                    "Dermatologists recommended ",
+                    " Sulphate free"
+                ]
+            },
+            "is_prime": false,
+            "sources": {
+                "platform": "Zepto"
+            }
+        }
+    ]
 }
