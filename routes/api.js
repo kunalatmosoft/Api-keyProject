@@ -77,7 +77,7 @@ router.use(async (req, res, next) => {
 
 // Rate limiting middleware
 const limiter = rateLimit({
-    windowMs: 5 * 60 * 1000, // 5 minutes
+    windowMs: 60 * 1000, // 5 minutes
     max: 10,                // 10 requests per 5 minutes
     message: "Rate limit exceeded. Try again later.",
 });
